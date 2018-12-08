@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesL/lib32-fakeroot.git
+	branch = master
+	commit = f18f331ae190b5bfbf509ee6d4f7ac4dc8e5e8fc
+	parent = 9a7bf4ed4fd9312a13a926889008782e90304a8b
+	method = merge
+	update = auto
+	cmdver = 0.4.1
