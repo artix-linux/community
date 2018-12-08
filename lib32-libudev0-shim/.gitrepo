@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/lib32-libudev0-shim.git
 	branch = master
-	commit = 8cced7f1bf037ae70b31757e4731b1f64143f8c4
-	parent = 71ee6159538020ef890b31bb9997adbe0d332d99
+	commit = ef6f4604b2fdc060cb6969a0a5ec6db08f1f9513
+	parent = e78c366e310bed1b5ddae3ed91bd8c4e87e33d83
 	method = merge
 	update = auto
 	cmdver = 0.4.1
