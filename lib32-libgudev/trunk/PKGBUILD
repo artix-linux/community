@@ -1,0 +1,42 @@
+# $Id$
+# Maintainer: Maxime Gauduin <alucryd@archlinux.org>
+# Contributor: FadeMind <fademind@gmail.com>
+# Contributor: Evangelos Foutras <evangelos@foutrelis.com>
+
+pkgname=lib32-libgudev
+pkgver=232
+pkgrel=2
+pkgdesc='GObject bindings for libudev'
+arch=('x86_64')
+url='https://wiki.gnome.org/Projects/libgudev'
+license=('LGPL2.1')
+depends=('lib32-glib2' 'libgudev' 'lib32-eudev')
+makedepends=('gcc-multilib' 'python')
+source=("https://download.gnome.org/sources/libgudev/${pkgver}/libgudev-${pkgver}.tar.xz")
+sha256sums=('ee4cb2b9c573cdf354f6ed744f01b111d4b5bed3503ffa956cefff50489c7860')
+
+build() {
+  cd libgudev-${pkgver}
+
+  export CC='gcc -m32'
+  export CXX='g++ -m32'
+  export PKG_CONFIG_PATH='/usr/lib32/pkgconfig'
+
+  ./configure \
+    --prefix='/usr' \
+    --libdir='/usr/lib32' \
+    --localstatedir='/var' \
+    --sysconfdir='/etc' \
+    --disable-introspection \
+    --disable-umockdev
+  make
+}
+
+package() {
+  cd libgudev-${pkgver}
+
+  make DESTDIR="${pkgdir}" install
+  rm -rf ${pkgdir}/usr/{include,share}
+}
+
+# vim: ts=2 sw=2 et:
