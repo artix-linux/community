@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesA/armagetronad.git
+	branch = master
+	commit = 4c908e7f66db7ccda8b6dd76e89804818c552df8
+	parent = f8cadcb8ccbf98279e59b18b1d1cb7760891ecd6
+	method = merge
+	update = auto
+	cmdver = 0.4.1
