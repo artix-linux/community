@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesN/nbd.git
 	branch = master
-	commit = af13dc5a4d8d2f65588d8b0105449c2e43871aac
-	parent = 0fea26c60e5bc8c07404bc2bddd5c5919e441112
+	commit = 532766313b04936cb92df4f6c09ef8201189ef83
+	parent = 9317fedee8eb127d926e2b6691ca01de9dc72464
 	method = merge
 	update = auto
 	cmdver = 0.4.1
