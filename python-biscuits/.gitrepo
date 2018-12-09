@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-biscuits.git
+	branch = master
+	commit = 06403ebde9fb08dd1bc895119c667de186de5e86
+	parent = 5dff20c3247a35a0fea08d785171cb9374c9b443
+	method = merge
+	update = auto
+	cmdver = 0.4.1
