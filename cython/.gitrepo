@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesC/cython.git
+	branch = master
+	commit = 5c371616bc746afa55a90ba332740d8af3e917e3
+	parent = 5b8d065095cd2ad911c791a0cb29a5d3f88d1ea1
+	method = merge
+	update = auto
+	cmdver = 0.4.1
