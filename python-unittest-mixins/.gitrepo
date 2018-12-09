@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-unittest-mixins.git
+	branch = master
+	commit = 6e81bfc35960ce09bd0d3f21f32187e1b4f069d3
+	parent = 8e02f912ad743f9fbc8ff7bcec412f6cc1e40305
+	method = merge
+	update = auto
+	cmdver = 0.4.1
