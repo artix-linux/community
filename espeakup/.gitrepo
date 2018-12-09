@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesE/espeakup.git
+	branch = master
+	commit = 8b4580392362099404e1c3586a4ddced842482ad
+	parent = b5b9d403f7e3a66e98a295fe00eb25080f056cf0
+	method = merge
+	update = auto
+	cmdver = 0.4.1
