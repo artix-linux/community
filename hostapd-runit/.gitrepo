@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesH/hostapd-runit.git
 	branch = master
-	commit = e0293627a17e1a43381c36aed053b2d975352af5
-	parent = 0ee878fb20df4264f75d67121e26d57e6082fb62
+	commit = d98dd6415f523ebc7de54ae9202967e72ea28696
+	parent = 841fa69daf293f24d28a0c72dda653104d2ea18f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
