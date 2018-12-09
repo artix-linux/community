@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-eventlet.git
+	branch = master
+	commit = 53fd605fd4e92892349eae67e44875aad4665bbd
+	parent = 0c068dae7421e4ff04fb6034262caa2e04a2d0f7
+	method = merge
+	update = auto
+	cmdver = 0.4.1
