@@ -1,0 +1,56 @@
+# $Id$
+# Maintainer: Kyle Keen <keenerd@gmail.com>
+
+pkgname=python-entrypoints
+_name=entrypoints
+pkgver=0.2.3
+pkgrel=3
+pkgdesc="Discover and load entry points from installed packages."
+arch=('any')
+url="https://github.com/takluyver/entrypoints"
+#url="https://pypi.python.org/pypi/entrypoints"
+license=('MIT')
+depends=('python')
+makedepends=('python' 'python2-setuptools')
+#makedepends=('python-pip')
+# several sources because the WHL doesn't come with a license
+# and pypi version is the only one with setup.py
+source=("$pkgname-$pkgver.tgz::https://github.com/takluyver/entrypoints/archive/$pkgver.tar.gz"
+        "https://files.pythonhosted.org/packages/py2.py3/e/$_name/$_name-$pkgver-py2.py3-none-any.whl"
+        "$pkgname-pypi-$pkgver.tgz::https://pypi.io/packages/source/e/$_name/$_name-$pkgver.tar.gz")
+
+prepare() {
+  cd "$srcdir"
+  cp -a entrypoints-$pkgver py2entrypoints-$pkgver
+}
+
+build() {
+  cd py2entrypoints-$pkgver
+  python2 setup.py build
+}
+
+package_python-entrypoints() {
+  cd "$srcdir"
+  # install is like this because of dist-info related bug report
+  # pip actually doesn't do much and is remarkably slow
+  #pip install --compile --no-deps --ignore-installed --root="$pkgdir" *.whl
+  install -Dm644 entrypoints.py "$pkgdir/usr/lib/python3.7/site-packages/entrypoints.py"
+  _dist="entrypoints-$pkgver.dist-info"
+  cd $_dist
+  for _i in ./*; do
+    install -Dm644 $_i "$pkgdir/usr/lib/python3.7/site-packages/$_dist/$_i"
+  done
+
+  cd "$srcdir/entrypoints-$pkgver"
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}
+
+package_python2-entrypoints() {
+  depends=('python2-configparser')
+  cd py2entrypoints-$pkgver
+  python2 setup.py install --root="$pkgdir" --optimize=1 --skip-build
+  install -Dm 644 LICENSE "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
+}
+sha256sums=('a628825648fade6fba8dd94cc26e38340ed840fca3e9d5b7b3dbf755b27bbbdd'
+            '10ad569bb245e7e2ba425285b9fa3e8178a0dc92fc53b1e1c553805e15a8825b'
+            'd2d587dde06f99545fb13a383d2cd336a8ff1f359c5839ce3a64c917d10c029f')
