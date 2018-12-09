@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-httplib2.git
 	branch = master
-	commit = 9cf2a15ee6a23195fc1ab6bfdeedb4c3204ed7f3
-	parent = b00122fbf546be0f04730f6aab2317f2e39fd272
+	commit = 0a12d18d9dcfca816640b280f61a634266f3f9a1
+	parent = 560b299db5911bf0713cf4734fa374d75a893406
 	method = merge
 	update = auto
 	cmdver = 0.4.1
