@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-paver.git
 	branch = master
-	commit = f651be6196c9db4c3f30772e410c29738d7da444
-	parent = e6081d66e777ba3654b6fd63a482db96b29eaff1
+	commit = 0f523509283471325abc0bdbdff19239598cfe2e
+	parent = 81c0ba78c821742975bd32ff19a6d9e9c1151c16
 	method = merge
 	update = auto
 	cmdver = 0.4.1
