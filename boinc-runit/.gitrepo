@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesB/boinc-runit.git
 	branch = master
-	commit = cca28853d01d164505a9bb7f0ce753d11d1d7fa7
-	parent = 35f8c82e130eee8738d040d1ec25084899fea55a
+	commit = 042a51b1a2a0ae53c7ea6e20c6ac29e54e70a324
+	parent = 605cb21a59a1f0a4110c8f078e7c7a7819e91f6d
 	method = merge
 	update = auto
 	cmdver = 0.4.1
