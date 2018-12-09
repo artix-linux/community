@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-redis.git
+	branch = master
+	commit = 8dce46ef3c64c54c6af0a4da4b11d03fe7899930
+	parent = 26d5d56892d40fc44de3297e747fe5a38fe07be9
+	method = merge
+	update = auto
+	cmdver = 0.4.1
