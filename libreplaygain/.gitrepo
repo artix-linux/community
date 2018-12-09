@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/libreplaygain.git
 	branch = master
-	commit = b20c7835510ce0e7759c36f5636acd759868a1b4
-	parent = b7d5de716c9a84ad8c7eab5341df0466307a34f9
+	commit = d1f4c5710d4d2baf0d6a886a38a215c5a0477fdd
+	parent = ec2c52cc107c0df6695a9f56ec53ca3fd3e02431
 	method = merge
 	update = auto
 	cmdver = 0.4.1
