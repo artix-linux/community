@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-greenlet.git
+	branch = master
+	commit = 66ad10161dc6d50692e99933e0f14d0cc3ca2881
+	parent = 4e23f9aaf4c518c18fd6ee8646c4c7ace4928f7e
+	method = merge
+	update = auto
+	cmdver = 0.4.1
