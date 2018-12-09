@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesT/ttf-droid.git
 	branch = master
-	commit = 65403d2ceb900552972536b237ee0d5641261ccd
-	parent = 63e58c58fe96c9ff80636c0abaed4022d1eb8e84
+	commit = fdd4006ac363de8dd8904ad43507deb71bd6cdc7
+	parent = 7b15f543c50c7dc588dff2ce089586f5e182a6a9
 	method = merge
 	update = auto
 	cmdver = 0.4.1
