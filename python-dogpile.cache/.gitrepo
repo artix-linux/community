@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-dogpile.cache.git
 	branch = master
-	commit = 8c20c86b25cacb62faf97a24c09e2d3650d5ffd3
-	parent = 515e61fe841c76dac8c37cc697d0674936cf0cf7
+	commit = f02a2a1bc66bc32c365b2e95d663667acc7ca31d
+	parent = 2070ab28d025716e1ad1b1fcc848f27f958194bb
 	method = merge
 	update = auto
 	cmdver = 0.4.1
