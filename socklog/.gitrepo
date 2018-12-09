@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesS/socklog.git
+	branch = master
+	commit = a30622046de453639ae83b0576f6f30cfc88cb63
+	parent = 1cff5761f50b67273f6278e3ab796b7d1bf23b6d
+	method = merge
+	update = auto
+	cmdver = 0.4.1
