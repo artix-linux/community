@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-apispec.git
+	branch = master
+	commit = 5a1b8684d4e4bd4b2145b22284dabd805967e91b
+	parent = 02921631ff16ff97d2ae83c2d33d27f28253f627
+	method = merge
+	update = auto
+	cmdver = 0.4.1
