@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesJ/jenkins-runit.git
 	branch = master
-	commit = b51fc5b10e1bc51a47e4997cd5aa906f309c75b4
-	parent = 43ed6b9b33a7be9d8d0affc632fcb31a707767c8
+	commit = fabcdd2b01850c6d711dab0432deb09434940634
+	parent = 9e24e868e0a0a428a556c569ef422f308b270732
 	method = merge
 	update = auto
 	cmdver = 0.4.1
