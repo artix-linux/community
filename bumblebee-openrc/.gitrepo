@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesB/bumblebee-openrc.git
 	branch = master
-	commit = b6d7e5a6234b26606010a05021336563595fc44a
-	parent = c5c563d729518172c195e826747bd3040de30f23
+	commit = fc4d53832de886702dea550c82174b6cea795d5a
+	parent = c1f0eed7ef447f7999d0f37dd787b4e1c41e70a3
 	method = merge
 	update = auto
 	cmdver = 0.4.1
