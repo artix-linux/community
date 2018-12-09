@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-progress.git
 	branch = master
-	commit = d90199a84789324dbc8a38591c497b200c84bdd4
-	parent = bbc9b74c6ff4cb20d15efda491beaf993bcc9a89
+	commit = 62bc3a768159ac57eceb3d37512ed0acbf7f78ca
+	parent = c4d43f0e232fe42295d25bb05ba87f361ffa11a2
 	method = merge
 	update = auto
 	cmdver = 0.4.1
