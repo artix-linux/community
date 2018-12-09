@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-raven.git
+	branch = master
+	commit = dda8493dbbd8e1f521ee60c69913d1306ea998d9
+	parent = 464959c42768c9b6404e589eead5b636035c7e50
+	method = merge
+	update = auto
+	cmdver = 0.4.1
