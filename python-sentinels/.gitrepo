@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-sentinels.git
+	branch = master
+	commit = fe21ae0101b7b38c5b7cb7d9b75bb8fe81861ae4
+	parent = 45438cccdb5807b7b2c8d57d17f4dcd5c295cb31
+	method = merge
+	update = auto
+	cmdver = 0.4.1
