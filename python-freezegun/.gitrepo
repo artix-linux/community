@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-freezegun.git
+	branch = master
+	commit = 8d58634a0c917f406badf8a0797b85dd1b51b61e
+	parent = 452b1aec464c65e66fb7640ae2245f0f4ee8a230
+	method = merge
+	update = auto
+	cmdver = 0.4.1
