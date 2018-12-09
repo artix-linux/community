@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-blinker.git
+	branch = master
+	commit = ec9a699a505f634f15bc6472f936ade8db399e7b
+	parent = e9869cb470b7892477b16c370419b4a74c9ffb0b
+	method = merge
+	update = auto
+	cmdver = 0.4.1
