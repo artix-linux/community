@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-apispec.git
 	branch = master
-	commit = 5a1b8684d4e4bd4b2145b22284dabd805967e91b
-	parent = 02921631ff16ff97d2ae83c2d33d27f28253f627
+	commit = 51d27b10532299ce52b1ec5b3150d8695e894bbc
+	parent = 99d2c71d06b838628dafee703c95416da94eaa46
 	method = merge
 	update = auto
 	cmdver = 0.4.1
