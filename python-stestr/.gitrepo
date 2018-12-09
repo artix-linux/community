@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-stestr.git
 	branch = master
-	commit = e7b74c6eec4c58595d4756d88eca33f0e76fbb4c
-	parent = e39232a20ab1c5e8f65c71b9c02b7c6ebe10c761
+	commit = f752ebb7dc6531e5e9c4c8919d861d03773de6da
+	parent = b5fb5ddf6da0e5745a37dc4d6b5e053a7f0e9ef4
 	method = merge
 	update = auto
 	cmdver = 0.4.1
