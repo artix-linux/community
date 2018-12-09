@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesT/trizen.git
 	branch = master
-	commit = 11d3d29691fda8dde2d7d12c0bdba4f2472786e3
-	parent = d009b3507221888cff5a02ad9f11757028c24a75
+	commit = 45c20c898898058c60998522317708d7fd38e8a3
+	parent = dbedde85dae3cd046ba345d2c0474eafa287852a
 	method = merge
 	update = auto
 	cmdver = 0.4.1
