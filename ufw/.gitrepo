@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesU/ufw.git
 	branch = master
-	commit = 0f7f53ab60f9a9d16c3b7d742660f619d2eb16c4
-	parent = ff6fcc4097463fe03b2ec62a26fda60e7b305a6f
+	commit = 00f3a544bb1de389d20a0e1c26bbb1a483f03922
+	parent = 718a894c1882fc0568f701d5388fbc1fb967fa9b
 	method = merge
 	update = auto
 	cmdver = 0.4.1
