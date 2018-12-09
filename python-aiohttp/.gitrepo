@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-aiohttp.git
 	branch = master
-	commit = 600d5859bfbd210ad3b19b2001994c0f341dcb7b
-	parent = 969a42a87139d9f2757d6fa8ff07da575157f757
+	commit = c0c5f373719eb4ef2a96314d65739a657a5a0bb7
+	parent = e0a235d6c7f321cfa996f4306ae3f34152dbd74d
 	method = merge
 	update = auto
 	cmdver = 0.4.1
