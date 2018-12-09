@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesT/ttf-inconsolata.git
+	branch = master
+	commit = ba8f916ee9abf6f34b210f02dc7c3b0777cc237f
+	parent = 7306badc0aae0bfc207879239eb55247ad0df48f
+	method = merge
+	update = auto
+	cmdver = 0.4.1
