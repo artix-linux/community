@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesA/autofs-runit.git
+	branch = master
+	commit = f06c10e563f0a104bb602bc1d40025fd3a6faf77
+	parent = b98e3d871b338c4a183b92b76c7aec08d4e704d3
+	method = merge
+	update = auto
+	cmdver = 0.4.1
