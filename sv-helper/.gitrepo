@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesS/sv-helper.git
 	branch = master
-	commit = 08a7bc63c35520b8ba7f16cffc51641f21faf25b
-	parent = 7f973650279fdac54f8ba30b3aa6f3bccfb98a1d
+	commit = b7883e695cb7939190b6aaca6364c87f65f1e017
+	parent = 28e7d4cfca90596b632570af2dc680bfff89a574
 	method = merge
 	update = auto
 	cmdver = 0.4.1
