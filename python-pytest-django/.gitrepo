@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-django.git
 	branch = master
-	commit = f8a75fa23edc612dcae62f6fb91386a86df529bf
-	parent = 472f25ef99713e49cb69fef62b76873895cea138
+	commit = c336db5773d1a70698259885941b312069b4ca49
+	parent = ad6e3a13038f468ba6a900fbcbb7e1ac48f145a1
 	method = merge
 	update = auto
 	cmdver = 0.4.1
