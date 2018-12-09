@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-sphinx-alabaster-theme.git
+	branch = master
+	commit = 1601cfaf16a88492f3a0baa94d1949c148791e38
+	parent = ba816dbfa54d6af63884fc9a0adbef67b486b3f2
+	method = merge
+	update = auto
+	cmdver = 0.4.1
