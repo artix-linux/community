@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesY/yaourt.git
 	branch = master
-	commit = 841fda9ce36ef1a7ab40154404dc5226f712d38a
-	parent = fb67b69d7b9ea15b180e4e8e7fd5197b9e7c349b
+	commit = 9d311c6a9c9023a4546b38fc2660d9b8a60e709a
+	parent = f3068bcc3033f6a33ee6254341d48cc893ba4ec4
 	method = merge
 	update = auto
 	cmdver = 0.4.1
