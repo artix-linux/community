@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesJ/jenkins-openrc.git
+	branch = master
+	commit = 3240560af9695637a794225cc9aed7bbf0cb8230
+	parent = 8ef0b79c2bbc43a7df5dd0b383598a31cf35e6da
+	method = merge
+	update = auto
+	cmdver = 0.4.1
