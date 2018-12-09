@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/libsodium.git
 	branch = master
-	commit = affc0f3ba483cc21f1939c46dfd90fd399450289
-	parent = cdec7f8a50d887e96f45d220ca5fdeaf5098d6aa
+	commit = 02a8353bae2281eef91d295bacd79cf9378cd3bf
+	parent = 0870b4bce912ada7c7f1a21cc40209ac99cd8151
 	method = merge
 	update = auto
 	cmdver = 0.4.1
