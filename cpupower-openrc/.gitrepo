@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesC/cpupower-openrc.git
+	branch = master
+	commit = c6725e65319707348222d2f189a5aa8e968c51ae
+	parent = 3bbd6c4738d519d244af70ad2ee0f5c0132a8abd
+	method = merge
+	update = auto
+	cmdver = 0.4.1
