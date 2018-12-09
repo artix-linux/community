@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesS/sshguard-runit.git
 	branch = master
-	commit = 9800b5daa479e62fde33461a3fab171f178c8bbc
-	parent = 0ff27c5169ad1dd8862f9e7f94fa712329237f0d
+	commit = 6e80dccea9716f786434ceff859abeebc53ca7e5
+	parent = 58208352ad54d60d3dc3a5ee930bd8ed74a90d9b
 	method = merge
 	update = auto
 	cmdver = 0.4.1
