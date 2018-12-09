@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesS/socklog.git
 	branch = master
-	commit = a30622046de453639ae83b0576f6f30cfc88cb63
-	parent = 1cff5761f50b67273f6278e3ab796b7d1bf23b6d
+	commit = ec0daf0871841f3395739aeb8b30ff21763a3888
+	parent = 451a6804b2d48539cffe068a08346e4c442868da
 	method = merge
 	update = auto
 	cmdver = 0.4.1
