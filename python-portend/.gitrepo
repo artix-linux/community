@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-portend.git
+	branch = master
+	commit = ec7996a170973d9e4cc6cd833aff001d513e2b70
+	parent = f42a2fa77cdaa5d5eba5c271cbc875001b36e821
+	method = merge
+	update = auto
+	cmdver = 0.4.1
