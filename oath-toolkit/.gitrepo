@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesO/oath-toolkit.git
+	branch = master
+	commit = 62ce3201f96c878f555cfb8a193f92f87302f9df
+	parent = e0d42d9ff6cd0651f0aab39284d762ef3cd1ef60
+	method = merge
+	update = auto
+	cmdver = 0.4.1
