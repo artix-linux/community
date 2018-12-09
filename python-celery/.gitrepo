@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-celery.git
+	branch = master
+	commit = d6cdda17f57848b075f7dad93f0a878eeaeb7f32
+	parent = 1ff3fc2ead954a2f10ab1c3caa82e0407c90371f
+	method = merge
+	update = auto
+	cmdver = 0.4.1
