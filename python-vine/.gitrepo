@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-vine.git
+	branch = master
+	commit = 58730413a868e761fe7bda37e68178a711d21bdc
+	parent = 529670de35d1d8a3083f33c9ac82195d0380b741
+	method = merge
+	update = auto
+	cmdver = 0.4.1
