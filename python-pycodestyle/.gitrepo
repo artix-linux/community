@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pycodestyle.git
 	branch = master
-	commit = f00fc2355089a6cee6dbbbc937c594f700c61217
-	parent = 7e85718156d226b12e7708d948c227a8cfef7a87
+	commit = 705cdcd4cc5d79f4006af65b4e6b0d4ec822ad5d
+	parent = fbd5c9d6931091b2a3237108fa1350b7452a439f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
