@@ -1,0 +1,19 @@
+# Maintainer: artoo <artoo@artixlinux.org>
+
+pkgbase=sddm-theme
+pkgname=('artix-sddm-theme')
+pkgver=0.4
+pkgrel=1
+pkgdesc="Artix theme for SDDM"
+arch=('any')
+url="https://gitea.artixlinux.org/artix/sddm-theme"
+license=('GPL')
+depends=('sddm' "artix-backgrounds")
+#install=artix-sddm-theme.install
+source=("${pkgbase}-${pkgver}.tar.gz::${url}/archive/${pkgver}.tar.gz")
+sha256sums=('010dfb55dce026aef31226cadc11f792ab5130cade10edbfec17684ece26ce6d')
+
+package_artix-sddm-theme() {
+    cd ${pkgbase} #-${pkgver}
+    make PREFIX=/usr DESTDIR=${pkgdir} install
+}
