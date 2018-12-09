@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesP/prometheus-runit.git
+	branch = master
+	commit = ae87f5d42c038e2cf5b6343b70012002b5c64ed6
+	parent = c02769a1c665941a39576f5c8d4f47a26d77b7fa
+	method = merge
+	update = auto
+	cmdver = 0.4.1
