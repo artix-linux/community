@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/libnewt.git
 	branch = master
-	commit = 683e5286c353c0eb5b6242b952e31808b4e6ac96
-	parent = dd99aa9ad05214fd10b37bf58432c7045ea0dccf
+	commit = 1407cba5de1191395f9823505c6313344ad67223
+	parent = e182d545af3715a255beeab33358dfec6e9e823d
 	method = merge
 	update = auto
 	cmdver = 0.4.1
