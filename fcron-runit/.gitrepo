@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesF/fcron-runit.git
 	branch = master
-	commit = f2c3a7143ae287ad4d6bbac00ba1de4d064500ad
-	parent = df4f9b944c993a49c8e878adf2de1f085b0e65ff
+	commit = 7e3d52d348de717fd08b4fe43cb0ad87ec79fa94
+	parent = 361822dce2dab08c635e3c3789bd97d3ee0dad11
 	method = merge
 	update = auto
 	cmdver = 0.4.1
