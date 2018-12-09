@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesM/minidlna.git
 	branch = master
-	commit = 32b90fc2ec95c43caa69d7887e09f3203fbdb9e4
-	parent = 216d6493727c831440975bc3d73e625ab6ddd92f
+	commit = e7d323b5d3fc8740640803268be651eb2faf6118
+	parent = f4eff3685388bc399f896cfac4fb5c6e12d6296f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
