@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesF/fcron.git
 	branch = master
-	commit = 67e4cce75daddb98d130b09d0228d930810d75c0
-	parent = 5b76e299905daf3d096cdd22619bc3c72e37d1f3
+	commit = ca19f2739e92e54fab16d72654f7e83f84f2471c
+	parent = 941a6e464c400e82f0ba3623493759d20847ef62
 	method = merge
 	update = auto
 	cmdver = 0.4.1
