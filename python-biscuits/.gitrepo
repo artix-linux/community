@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-biscuits.git
 	branch = master
-	commit = 06403ebde9fb08dd1bc895119c667de186de5e86
-	parent = 5dff20c3247a35a0fea08d785171cb9374c9b443
+	commit = 00bd6413f79156b2d22e1f3c988a77aebef3e04c
+	parent = b962b0f4fc8cd6146acf77c659158b2b985978b2
 	method = merge
 	update = auto
 	cmdver = 0.4.1
