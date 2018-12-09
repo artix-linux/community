@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-flup.git
+	branch = master
+	commit = 42be31cc0c57178a5df79e93b14163c8b5540ec8
+	parent = 0f4b312b9a1b8f6b769fa4084c91fbcb544a4276
+	method = merge
+	update = auto
+	cmdver = 0.4.1
