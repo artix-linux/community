@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-msgpack.git
+	branch = master
+	commit = e1e1f37bb0aeeca277f70215101ea68a81c9d48b
+	parent = d4efa5db4f86432e6377a33e3c3a3e4782746301
+	method = merge
+	update = auto
+	cmdver = 0.4.1
