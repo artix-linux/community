@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-sentinels.git
 	branch = master
-	commit = fe21ae0101b7b38c5b7cb7d9b75bb8fe81861ae4
-	parent = 45438cccdb5807b7b2c8d57d17f4dcd5c295cb31
+	commit = 201ffcde3b560ab4599ccfe664c007c055539a59
+	parent = 37256fa03e821e7474582d84d1410bcdf3d7861a
 	method = merge
 	update = auto
 	cmdver = 0.4.1
