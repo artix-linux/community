@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-tornado.git
+	branch = master
+	commit = f003adb9e27d8022beb32d3ba447a4f6c2fb3641
+	parent = ae90050d7e6258ac6fb52d3ab93809f300e3b531
+	method = merge
+	update = auto
+	cmdver = 0.4.1
