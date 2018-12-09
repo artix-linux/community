@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-prettytable.git
 	branch = master
-	commit = 212c534ff2aee0b7f35beffd4dfd19719aa47c16
-	parent = dae5582797d442b5db0a32fb20a2d64a2d208a72
+	commit = 4a649b3d811e66fa4b2db3aea125af1cda71e0a2
+	parent = 738e48e507cfc8316637d91a433f82cb56d9cca5
 	method = merge
 	update = auto
 	cmdver = 0.4.1
