@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/libmongoc.git
 	branch = master
-	commit = c37d6a08e600dc51bf96753192fa374b45b37d59
-	parent = 93e5f3bc381e7305cadf44884459e32cd05b5e7c
+	commit = 9a01e540d2fd3340b4809d23e91f95f8ba517e32
+	parent = 2597c1a3f89392d2e7e3d53a4cc6f3c05104c905
 	method = merge
 	update = auto
 	cmdver = 0.4.1
