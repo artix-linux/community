@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-oslo-log.git
+	branch = master
+	commit = 554259a6a2a64020d32d685e7404aca203f4ad8a
+	parent = 76aaa1658c29c0146a492f0980983f3461186fc0
+	method = merge
+	update = auto
+	cmdver = 0.4.1
