@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-cookies.git
+	branch = master
+	commit = 1d4fa6b4d3a951d9fb447a822e0d5053dba32ea6
+	parent = f019a3d9031cd9143a1e70669da8ca4eb38f0ea4
+	method = merge
+	update = auto
+	cmdver = 0.4.1
