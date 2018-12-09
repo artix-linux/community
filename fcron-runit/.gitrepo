@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesF/fcron-runit.git
+	branch = master
+	commit = f2c3a7143ae287ad4d6bbac00ba1de4d064500ad
+	parent = df4f9b944c993a49c8e878adf2de1f085b0e65ff
+	method = merge
+	update = auto
+	cmdver = 0.4.1
