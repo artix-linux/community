@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesN/neofetch.git
+	branch = master
+	commit = c76cdda43f8b185f623f534c4c0fc591517c6d1a
+	parent = 9bcb765846c691731cd670192aed8155da5aea86
+	method = merge
+	update = auto
+	cmdver = 0.4.1
