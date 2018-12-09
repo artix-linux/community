@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-aspectlib.git
 	branch = master
-	commit = 0f428a6cc565a2d775fe54988eef12eba6f9ffec
-	parent = b8baa23b46d23d3483b2938910ca9aa34af514cd
+	commit = 6c86d5651e78621d71cc90322b4ee48f00f54ea7
+	parent = e05846c7b9056c32906f904db220289138668e32
 	method = merge
 	update = auto
 	cmdver = 0.4.1
