@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-monotonic.git
 	branch = master
-	commit = c0b36d8ad96599c5d18526b8c17d42be4463a823
-	parent = 31e37e63e12bb26c522e42ea05e42c385660de6c
+	commit = e4a6c0a57809ddf4ed18def38dde66106f017622
+	parent = 887fdce8488afac8c20c345a6e386d5ceccd161e
 	method = merge
 	update = auto
 	cmdver = 0.4.1
