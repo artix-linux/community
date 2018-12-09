@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-serpent.git
+	branch = master
+	commit = 4ab23888c866a2a463e0221f5ff96e9e3c5975a3
+	parent = d76808582bb55510f1f633a76664fa666c5fce4b
+	method = merge
+	update = auto
+	cmdver = 0.4.1
