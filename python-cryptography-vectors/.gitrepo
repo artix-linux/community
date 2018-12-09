@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-cryptography-vectors.git
+	branch = master
+	commit = 688f399b06c47cac3e2023219bde74d1b4cc9343
+	parent = 6e3b8d8772b8b2af35b13421fa9b54ed9ad1b873
+	method = merge
+	update = auto
+	cmdver = 0.4.1
