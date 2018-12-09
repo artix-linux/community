@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/compton-conf.git
 	branch = master
-	commit = cad14f97998df95b52abcd54787fc11cd9379393
-	parent = 57aa4a276fc7b466f4604a80ceefb07dc5aa3e2f
+	commit = ddfad1db57e73f7d100e353197af5930ac24a9dc
+	parent = 8af5b901a213539e8935a3da80f18bcef096a7fd
 	method = merge
 	update = auto
 	cmdver = 0.4.1
