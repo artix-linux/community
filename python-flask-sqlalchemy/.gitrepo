@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-flask-sqlalchemy.git
 	branch = master
-	commit = 14803e9626c026024e6f883c0e63166654445b5f
-	parent = 6dad12644b363ebec3c05f3c8e622f69f50a650b
+	commit = e43464c8c67306a60f6473a2a1a23f04f6277fee
+	parent = 167b0cbbedefd748aeeb79c40a84e2da01695cfc
 	method = merge
 	update = auto
 	cmdver = 0.4.1
