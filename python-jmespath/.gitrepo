@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-jmespath.git
+	branch = master
+	commit = 4ad897600423b282f5bcd5c707416a42d5e35ef4
+	parent = 51724ac399548d60197c359015822513eaa359d5
+	method = merge
+	update = auto
+	cmdver = 0.4.1
