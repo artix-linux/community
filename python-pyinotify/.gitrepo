@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pyinotify.git
 	branch = master
-	commit = 5d523a8a6e200af86bb42d01f0a49630bd62b89b
-	parent = b8609c9e723b7343ea207e5f3895515ad28d8cef
+	commit = 38ed0b4b8c42ab6c9d32b1e8defda3f47bdca73b
+	parent = 37cc0aa014f472671f9f7d37ae61509f86f9990b
 	method = merge
 	update = auto
 	cmdver = 0.4.1
