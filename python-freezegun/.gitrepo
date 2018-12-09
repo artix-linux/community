@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-freezegun.git
 	branch = master
-	commit = 8d58634a0c917f406badf8a0797b85dd1b51b61e
-	parent = 452b1aec464c65e66fb7640ae2245f0f4ee8a230
+	commit = 10e9110f7cd8d04d548f000e7a2bf330b17372fb
+	parent = 93c36f7ac562e46fbad4ed327018e0a44221d863
 	method = merge
 	update = auto
 	cmdver = 0.4.1
