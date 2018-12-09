@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-secretstorage.git
+	branch = master
+	commit = cf3fce5002f0a3d7d8f7e632d63c33758aa75e1e
+	parent = 7d92b3122a3eb546d26e2979938a68f540fc9e51
+	method = merge
+	update = auto
+	cmdver = 0.4.1
