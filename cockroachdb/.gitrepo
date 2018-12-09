@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesC/cockroachdb.git
+	branch = master
+	commit = efd76cfaabcadf76c9b01a2578ebb4efb7dc3ebd
+	parent = e3b29e2d0085751d765504fdbbaad98d0a5db573
+	method = merge
+	update = auto
+	cmdver = 0.4.1
