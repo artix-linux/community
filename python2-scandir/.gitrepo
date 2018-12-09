@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python2-scandir.git
 	branch = master
-	commit = 8469fdd1f4d5461bd3dc937d8244f351e9905874
-	parent = 08895c1f005f27e15089fdc190590d1ba8e72f1e
+	commit = ea41e083e13d6f8aed7fdcd574710f25830c1e4a
+	parent = ba2198d5d8c18030d95c2f6ab30df339b8730b6d
 	method = merge
 	update = auto
 	cmdver = 0.4.1
