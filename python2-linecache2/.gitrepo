@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python2-linecache2.git
 	branch = master
-	commit = 8368e80ba8a5cd4e707012b771dd7f226609341e
-	parent = 0f153360ba2af6a06c2f5d7802046211c4939392
+	commit = 72ec2991e4e57cbaf57a5f3f6b7b0f8e54682a0e
+	parent = 517793f36f3b8cb0605825b8c42ee6278f13ca6a
 	method = merge
 	update = auto
 	cmdver = 0.4.1
