@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesL/libsodium.git
+	branch = master
+	commit = affc0f3ba483cc21f1939c46dfd90fd399450289
+	parent = cdec7f8a50d887e96f45d220ca5fdeaf5098d6aa
+	method = merge
+	update = auto
+	cmdver = 0.4.1
