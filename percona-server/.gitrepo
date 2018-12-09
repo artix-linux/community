@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesP/percona-server.git
+	branch = master
+	commit = 19a285d2c1368cdb9febd7862abdb0b52f06f6eb
+	parent = 7bb912de8a62971a8406940ccc415f3e31297f5e
+	method = merge
+	update = auto
+	cmdver = 0.4.1
