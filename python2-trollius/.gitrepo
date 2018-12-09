@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python2-trollius.git
+	branch = master
+	commit = 3392e16054ccc1f90d6d0158e4a13046c03108e1
+	parent = f2f42b70661f7a7a7e938bacf17682246d0fd1f0
+	method = merge
+	update = auto
+	cmdver = 0.4.1
