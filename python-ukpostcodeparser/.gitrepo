@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-ukpostcodeparser.git
+	branch = master
+	commit = c65f69f4dda5d0961d7d7ae8419799f0ea049f45
+	parent = 44d246742cc9afa50f2be34c6caeaca38348c33d
+	method = merge
+	update = auto
+	cmdver = 0.4.1
