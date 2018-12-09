@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesS/salt-runit.git
+	branch = master
+	commit = 57531e057a5844af2a66e691bbd8eeac665b5926
+	parent = e6d06dd133e9b1214ff2a3aeed54909d33688cb0
+	method = merge
+	update = auto
+	cmdver = 0.4.1
