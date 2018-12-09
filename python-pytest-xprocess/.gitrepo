@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-xprocess.git
 	branch = master
-	commit = fdd8e632e6aa74effffdee2291831028c69a5881
-	parent = 5ca94a8f4daa1934b5edc9937b01fd15925c796e
+	commit = 8d0e769d3bd7eaa2e6097694f8d1d8047a15836f
+	parent = fdb8a843cf37eb62071ef520bdc24deeaea4bf55
 	method = merge
 	update = auto
 	cmdver = 0.4.1
