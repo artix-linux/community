@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-pyenchant.git
+	branch = master
+	commit = d90af0cd3035317760e626e1e3b2a1ff226ac700
+	parent = 0d6a594ae5576c8841fdea26bf76e8150efc9bc9
+	method = merge
+	update = auto
+	cmdver = 0.4.1
