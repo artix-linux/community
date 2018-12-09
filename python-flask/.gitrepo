@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-flask.git
 	branch = master
-	commit = 7d79770aaea195b956ea85cf3bea85d259faf335
-	parent = c7dc2a2b6b02f9d93108b25e48e18dfc5095dc66
+	commit = 1d45f1a054faea56597ba4642ed1c972c31cf939
+	parent = 4977fd4510dc77c9605dba898a03106fc6720fe2
 	method = merge
 	update = auto
 	cmdver = 0.4.1
