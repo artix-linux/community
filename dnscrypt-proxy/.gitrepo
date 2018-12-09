@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesD/dnscrypt-proxy.git
+	branch = master
+	commit = 8a4d2424289015dac7dec7e83f8ffa3a033194d5
+	parent = 5cd811af1eebff27783b73c594eca250c404c42c
+	method = merge
+	update = auto
+	cmdver = 0.4.1
