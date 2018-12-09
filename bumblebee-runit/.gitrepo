@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesB/bumblebee-runit.git
 	branch = master
-	commit = 7e376131fa4578c5c0b7d5875864556a0b1b9b6c
-	parent = 9abb3bf4feb9d1a207775deab0e68369b5ba993b
+	commit = 94260f7a02510d28ba0f3ba77d83a4b35e29aab3
+	parent = e6da7402e134d4f6d1742d256050ffe64928d59b
 	method = merge
 	update = auto
 	cmdver = 0.4.1
