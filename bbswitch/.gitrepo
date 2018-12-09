@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesB/bbswitch.git
+	branch = master
+	commit = 8b540008228273b69e2498b0f3f4a392d684f7ac
+	parent = 1fb0f016824c785c02d7dc4f8ede16c14fcf9d47
+	method = merge
+	update = auto
+	cmdver = 0.4.1
