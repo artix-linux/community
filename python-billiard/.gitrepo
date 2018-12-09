@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-billiard.git
 	branch = master
-	commit = 6fd9bfa228f757ea318281ab8d7a2dfc6915cccd
-	parent = a282f2ed323c108f3b6427e31d862155337948bf
+	commit = 66c0707da3c30c9695401249ae774a3a4ec5391b
+	parent = f03c6d9848a5a315bfe75e54651e001cdd209383
 	method = merge
 	update = auto
 	cmdver = 0.4.1
