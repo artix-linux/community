@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-keyring.git
+	branch = master
+	commit = 7ec42547d145d5329c6371f9b29870ff1858c067
+	parent = d81492cdc714869085b437707a862d84d6d1916e
+	method = merge
+	update = auto
+	cmdver = 0.4.1
