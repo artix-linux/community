@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-dateutil.git
 	branch = master
-	commit = ec16f5d5ffe5d21c1916c368bdbe261dcbcd0d46
-	parent = f0addb0c96ad2b8ec3dbb14f6611ccc932086eb9
+	commit = 9a0f4114a24e440aa01bcba8ee26f129ef2d88b0
+	parent = 11c606e200b5b6469f051dc6fd9b6ae5ff94a146
 	method = merge
 	update = auto
 	cmdver = 0.4.1
