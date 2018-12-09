@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesI/i3lock-wrapper.git
+	branch = master
+	commit = b4fde484ba9e9c4cb44dc5c9d7dbd15f1cd6513c
+	parent = 614e659c6cf21f68209d0c04531f88ef0a015765
+	method = merge
+	update = auto
+	cmdver = 0.4.1
