@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesN/ninja.git
 	branch = master
-	commit = a85705b0e22ffb81b597301a938b0b2e4390a349
-	parent = 16b663c2619deb2752a88c0da98300391852b314
+	commit = 3491bf26d4fb623a5cdc4013078cb738f045026f
+	parent = db8c36c8144ba42e832b4b7383cf28b48146b6b1
 	method = merge
 	update = auto
 	cmdver = 0.4.1
