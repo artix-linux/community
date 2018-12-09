@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-json-logger.git
+	branch = master
+	commit = 79540d7aff6c41d4e1f8024e018d5d66b97ecd76
+	parent = f9aee4df610e97442a40d0d798f42fd7aa63aa2e
+	method = merge
+	update = auto
+	cmdver = 0.4.1
