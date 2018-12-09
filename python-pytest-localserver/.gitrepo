@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-localserver.git
 	branch = master
-	commit = e592fb286a8b31e027b14101205ac8e97719eb63
-	parent = fc8d1c954b95b627a063884cea9b4b1d84a06c13
+	commit = 1253bc44eb4396ca70949c37f3d77c97a60b0f6f
+	parent = d2df4c4f920d757aee2948335d1e9f6c3c5efea1
 	method = merge
 	update = auto
 	cmdver = 0.4.1
