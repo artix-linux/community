@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-mistune.git
+	branch = master
+	commit = 2b9ab45774e72e39b6f53fda96cc7b82ad01ec45
+	parent = 7a08c495e208769516660e15cbbe1fd34eb041d9
+	method = merge
+	update = auto
+	cmdver = 0.4.1
