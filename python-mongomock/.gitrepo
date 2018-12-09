@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-mongomock.git
+	branch = master
+	commit = 364b01d05e92631d7f4d98e730146caba9795e3e
+	parent = 0ee211ea4c57fc27dca5ae85f425f55eb7de2d19
+	method = merge
+	update = auto
+	cmdver = 0.4.1
