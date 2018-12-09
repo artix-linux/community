@@ -1,0 +1,57 @@
+# Maintainer: Thore Bödecker <foxxx0@archlinux.org>
+# Contributor: wangjiezhe <wangjiezhe AT yandex DOT com>
+
+pkgbase='python-cheroot'
+_pkgbase="${pkgbase//python-/}"
+pkgname=('python-cheroot' 'python2-cheroot')
+pkgdesc="Highly-optimized, pure-python HTTP server"
+pkgver=6.5.2
+pkgrel=1
+arch=('any')
+url="https://github.com/cherrypy/cheroot"
+license=('MIT')
+makedepends=('python-six' 'python2-six' 'python-setuptools-scm'
+  'python2-setuptools-scm' 'python2-backports.functools_lru_cache'
+  'python2-backports.unittest_mock' 'tree')
+source=("${pkgbase}-${pkgver}.tar.gz::https://files.pythonhosted.org/packages/c4/ab/b3800499ccec7f058fe080ae7f79207f9b498559edd1467d533a2126767c/cheroot-6.5.2.tar.gz"
+        "LICENSE"
+        "cheroot-fix-setup-python3.patch")
+sha512sums=('f31026050a45720a0aa08204607b521ae2c0666220886bd14f1f53f81411a66a8ff17e42640efb5189e998f3dfda2fbe41a2c18672dd83c52e9d8ad356cab264'
+            '1106afed483b7258e4ae89c5d9459c3834412b31aac90169725ed62d2ab44f61f6f79e894d4c9e4d8bd99e14530ab778df2187784f0b25eaab86d312fad68944'
+            '35a8f2ba144c36421119326c7c93851318c8b02b9b33c2eb31979e980e38b430e962eff467ea18f060bec6fd4251f5abf489fb7be87e645243c9c356c16a6ec4')
+
+prepare() {
+  cd "${srcdir}/${_pkgbase}-${pkgver}"
+  patch -p1 -N -i "${srcdir}/cheroot-fix-setup-python3.patch"
+}
+
+package_python-cheroot() {
+  depends=('python-six')
+
+  cd "${srcdir}/${_pkgbase}-${pkgver}"
+  python setup.py install --root="$pkgdir/" --optimize=1
+
+  # the author has promised to include a LICENSE file in future releases:
+  # https://github.com/jaraco/skeleton/issues/1
+  # for now the LICENSE file has been taken from:
+  # https://github.com/jaraco/skeleton/blob/skeleton/LICENSE
+  install -D -m644 "${srcdir}/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}
+
+package_python2-cheroot() {
+  depends=('python2-six' 'python2-backports.functools_lru_cache'
+           'python2-backports.unittest_mock')
+
+  cd "${srcdir}/${_pkgbase}-${pkgver}"
+  python2 setup.py install --root="$pkgdir/" --optimize=1
+
+  # the author has promised to include a LICENSE file in future releases:
+  # https://github.com/jaraco/skeleton/issues/1
+  # for now the LICENSE file has been taken from:
+  # https://github.com/jaraco/skeleton/blob/skeleton/LICENSE
+  install -D -m644 "${srcdir}/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+
+  mv "${pkgdir}/usr/bin/cheroot" "${pkgdir}/usr/bin/cheroot2"
+}
+
+# vim:set ts=2 sw=2 et:
