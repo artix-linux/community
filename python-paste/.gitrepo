@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-paste.git
 	branch = master
-	commit = c5b1aefd266a1b2c540542560e0c1e06afa85832
-	parent = 755a9f5a6f699878c446420e6e0b28d9191fe769
+	commit = a2b4844ae99f2e3f7436ef6446edebd27387aecf
+	parent = d19b9e771dc04c9acc5901b8c7b48e56a174cf70
 	method = merge
 	update = auto
 	cmdver = 0.4.1
