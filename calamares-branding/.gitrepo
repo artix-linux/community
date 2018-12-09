@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesC/calamares-branding.git
+	branch = master
+	commit = 7e364145a8a2462288ea58b8a18570a0860b4b42
+	parent = f42b49b2b1b4683447a021200c8a43ff00c9f327
+	method = merge
+	update = auto
+	cmdver = 0.4.1
