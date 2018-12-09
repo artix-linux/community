@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesI/iwd.git
 	branch = master
-	commit = d08a426528f41dbf77d54c32b8780cbb8d290225
-	parent = ec25c5b2a1c5501415fdbaca97e024f6feb0fda5
+	commit = 06b2e76248dd734b3f48702085b17615f6342367
+	parent = 51ccd391792a3ff97229ef91aec26eb4480fab03
 	method = merge
 	update = auto
 	cmdver = 0.4.1
