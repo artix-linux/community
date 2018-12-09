@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pygments.git
 	branch = master
-	commit = 63d6171d604c1d5b6197f5982728cedc0e53cb97
-	parent = 0fa867cc521e83e88bd48e9e3c0cb8534174ae95
+	commit = 4eab54a6e04293416c5c4c8d702ad9aae08574fa
+	parent = 9634af0379f704bf4e00ab4cbb2354252dc08fb4
 	method = merge
 	update = auto
 	cmdver = 0.4.1
