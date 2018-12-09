@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesV/vsftpd-openrc.git
+	branch = master
+	commit = 7f5d0e2f29f25ab967de242fb1947fc490de0e71
+	parent = d600379ca7fcfa1be2b7bc8675302ec7aa931bc6
+	method = merge
+	update = auto
+	cmdver = 0.4.1
