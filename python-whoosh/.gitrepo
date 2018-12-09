@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-whoosh.git
 	branch = master
-	commit = 9c4cd7e94be26de906d9dd5d93668db4ab560cb9
-	parent = e2ebbf43c4eb153310a7ecb3a169d9fb9419b022
+	commit = 39a52b5da7be0f7c7d7cf613e8bac35654ae4b6d
+	parent = 14e5edd91bc1e41058f9adc747d9baee1a371462
 	method = merge
 	update = auto
 	cmdver = 0.4.1
