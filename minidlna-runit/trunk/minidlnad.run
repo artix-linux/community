@@ -1,0 +1,3 @@
+#!/bin/sh
+[ -r conf ] && . ./conf
+exec chpst -u minidlna:minidlna minidlnad -S ${OPTS} 2>&1
