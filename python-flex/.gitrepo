@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-flex.git
+	branch = master
+	commit = e2d5a943cbd5e026df2d031a8fcb3d8a28bc889e
+	parent = e3c72b961332c5a3c297c81c65ad11b6f469c601
+	method = merge
+	update = auto
+	cmdver = 0.4.1
