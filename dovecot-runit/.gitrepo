@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesD/dovecot-runit.git
+	branch = master
+	commit = a6c866844d15b0f5a806b85c1303e6ce348aa0a0
+	parent = b1588356803a03566a502a1934506e92d393acc8
+	method = merge
+	update = auto
+	cmdver = 0.4.1
