@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesA/autofs-openrc.git
+	branch = master
+	commit = c261dd6e82f4ae9c1e02d8639446116035293554
+	parent = 449dd256193adf30498a2ca675622314fb5ee469
+	method = merge
+	update = auto
+	cmdver = 0.4.1
