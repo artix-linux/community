@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesV/vnstat-runit.git
 	branch = master
-	commit = ea55ebd751ef798e8ac91364cabb90836cca47d8
-	parent = e0f8b63fb97de97686e5de8683b6ff1239477a52
+	commit = 606ae3b1361c9b29bc13a4b7c3be531f77152e39
+	parent = cedbf64fedcb6a6cd51ecae4d1292b344debcce9
 	method = merge
 	update = auto
 	cmdver = 0.4.1
