@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesO/opam.git
+	branch = master
+	commit = 1b66ac9c0533f59469a56ab913acc83ea02438bb
+	parent = 377e04614a0b96c18321e59d9cb9073bda0c04e2
+	method = merge
+	update = auto
+	cmdver = 0.4.1
