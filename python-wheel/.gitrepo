@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-wheel.git
 	branch = master
-	commit = 670d5e15d24cc7c7115487b0cb4a79b36d92ee66
-	parent = c896c576fc55848d1bd845ca509796f019118968
+	commit = 70c973ea1af4132429873565712e5c29e691b357
+	parent = fa5b72a499ecb5d4c1e94feb10220c3b4db28ee2
 	method = merge
 	update = auto
 	cmdver = 0.4.1
