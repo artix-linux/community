@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-jsonpointer.git
+	branch = master
+	commit = 85f936f24701b36fcb94c94b272323bd891b19b4
+	parent = 5af4ebf5a4b85c4475e48e47412823a033aa49b9
+	method = merge
+	update = auto
+	cmdver = 0.4.1
