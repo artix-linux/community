@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesT/toxcore-runit.git
 	branch = master
-	commit = 39c4f7b50734d52cd234f66fbdab301d1521b656
-	parent = 44a45e388aa57059850f9da3a2f759fb595540c2
+	commit = b27a652108258bf3dd43c2fbe0d1cfa9cd6f0a5b
+	parent = 5cfba59044c757da938ca83d3eafc0681223327b
 	method = merge
 	update = auto
 	cmdver = 0.4.1
