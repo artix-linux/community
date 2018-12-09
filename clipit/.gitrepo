@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesC/clipit.git
+	branch = master
+	commit = c03d18d578bfc5377bb3e26caadbbc77e2d3d3ef
+	parent = 5f16487d9a7d39b066fd3d1e0081b82f9324c1f0
+	method = merge
+	update = auto
+	cmdver = 0.4.1
