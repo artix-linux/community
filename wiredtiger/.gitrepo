@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesW/wiredtiger.git
 	branch = master
-	commit = 876d4907e79d1a20c96ecbc9007e7a719de6805c
-	parent = 647e201a1eaf07afa3864f21e399ad1dca0695cc
+	commit = 39a4aa528cf326dc5c4585cc65274d1ab7670262
+	parent = 05a15a1d1013141176bd8baa839559d22f80481d
 	method = merge
 	update = auto
 	cmdver = 0.4.1
