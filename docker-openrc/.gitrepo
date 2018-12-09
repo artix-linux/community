@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesD/docker-openrc.git
+	branch = master
+	commit = 2eb06a56c7e66dc93ac6e29aade5abeba3b69b2d
+	parent = 8a3874f59db8e2cb009184692bc1a208993bc78b
+	method = merge
+	update = auto
+	cmdver = 0.4.1
