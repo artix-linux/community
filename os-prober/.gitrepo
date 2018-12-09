@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesO/os-prober.git
+	branch = master
+	commit = f547b7bf93681974921cc8f25b5fbc0f01f109b5
+	parent = f03b147b3e5a4c14ecbd8dd1858c1edd64999133
+	method = merge
+	update = auto
+	cmdver = 0.4.1
