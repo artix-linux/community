@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-billiard.git
+	branch = master
+	commit = 6fd9bfa228f757ea318281ab8d7a2dfc6915cccd
+	parent = a282f2ed323c108f3b6427e31d862155337948bf
+	method = merge
+	update = auto
+	cmdver = 0.4.1
