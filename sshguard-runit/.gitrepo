@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesS/sshguard-runit.git
+	branch = master
+	commit = 9800b5daa479e62fde33461a3fab171f178c8bbc
+	parent = 0ff27c5169ad1dd8862f9e7f94fa712329237f0d
+	method = merge
+	update = auto
+	cmdver = 0.4.1
