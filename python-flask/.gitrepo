@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-flask.git
+	branch = master
+	commit = 7d79770aaea195b956ea85cf3bea85d259faf335
+	parent = c7dc2a2b6b02f9d93108b25e48e18dfc5095dc66
+	method = merge
+	update = auto
+	cmdver = 0.4.1
