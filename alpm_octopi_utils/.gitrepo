@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesA/alpm_octopi_utils.git
 	branch = master
-	commit = 565864b06f11480461cf4cc96ba9b88fa5c15a54
-	parent = 7491daed7e44d41947374d7abc6aff5347c34c0b
+	commit = 7220f5f058284eaf9b900b9a15c81120a332596c
+	parent = c3b2616d0b31f5aff079e52b2a8f03ac9673c68a
 	method = merge
 	update = auto
 	cmdver = 0.4.1
