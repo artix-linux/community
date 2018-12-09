@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesS/sshguard-openrc.git
 	branch = master
-	commit = 8e48590c843b1e18f52bdc4e79267d8b720624b5
-	parent = fbfbd9c8334d9f4e5790c840424c77a84f649c5f
+	commit = 752ca10123add701cab668bb5d7798fdede26f87
+	parent = 779766400295b36c247f8e1ec7d4cd0f8bc30f13
 	method = merge
 	update = auto
 	cmdver = 0.4.1
