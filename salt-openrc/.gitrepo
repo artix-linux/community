@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesS/salt-openrc.git
 	branch = master
-	commit = 2e899be4c320be9293016c14c764b8a168316553
-	parent = e61df9965947d97f83c98d03cadcc7a4bf1e11ab
+	commit = df8070896205eaa65fe08d805cdcb2ee9fce1d60
+	parent = ad424d8afba84a94c3b6e55dd7d0fea1eba4251d
 	method = merge
 	update = auto
 	cmdver = 0.4.1
