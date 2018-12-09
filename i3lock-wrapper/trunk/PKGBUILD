@@ -1,0 +1,22 @@
+# Maintainer: Oscar Campos <oscar.campos@member.fsf.org>
+
+pkgname=i3lock-wrapper
+pkgver=2017.10.23.8b58926
+_snapshot="8b5892643166124bdaaaca042a37f33ea8a446bb"
+pkgrel=2
+pkgdesc="Very simple wrapper for i3lock that blurs a desktop screenshot using imagemagick"
+arch=("any")
+url="https://github.com/ashinkarov/i3-extras/"
+license=("ISC")
+groups=("i3")
+depends=("i3lock" "scrot" "imagemagick")
+optdepends=('bc: for superimpose padlock logo with -l'
+            'ghostscript: for superimpose padlock logo with -l')
+source=("https://raw.githubusercontent.com/ashinkarov/i3-extras/${_snapshot}/i3lock-wrapper")
+sha256sums=('d471d682b985bc5d0a56d2ca33cd2c0cd556837f084d191f2b5b768e5cb56fc4')
+
+package() {
+    cd "${srcdir}"
+    install -Dm755 "${pkgname}" "${pkgdir}/usr/bin/${pkgname}"
+}
+
