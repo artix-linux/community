@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesW/wiredtiger.git
+	branch = master
+	commit = 876d4907e79d1a20c96ecbc9007e7a719de6805c
+	parent = 647e201a1eaf07afa3864f21e399ad1dca0695cc
+	method = merge
+	update = auto
+	cmdver = 0.4.1
