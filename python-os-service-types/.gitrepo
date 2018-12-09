@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-os-service-types.git
 	branch = master
-	commit = 674305837980068fd5180955feddd3f3bc011687
-	parent = 139a7339bcc6a74c10d9158612c239e7afd71922
+	commit = 70d221fdd26ea1dc37e6f2a404c4746a03be099c
+	parent = f402b10a8310e28d2888db30db395cfabf2078a0
 	method = merge
 	update = auto
 	cmdver = 0.4.1
