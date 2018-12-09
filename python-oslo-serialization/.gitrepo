@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-oslo-serialization.git
 	branch = master
-	commit = 6ef2adedc781fe802153837a36f898e7018056db
-	parent = 1383bc93b375c241e79d9ea606bae825b9eb5dab
+	commit = f692c96ec142e22e7ea1804d951899375af18852
+	parent = b1966adff650faeabdb133bfbe0e76b2a9bc12ac
 	method = merge
 	update = auto
 	cmdver = 0.4.1
