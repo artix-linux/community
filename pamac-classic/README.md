@@ -1,0 +1,2 @@
+# pamac-classic
+

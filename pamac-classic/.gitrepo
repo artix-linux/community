@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesP/pamac-classic.git
+	branch = master
+	commit = a8ad7f3b3a184bdb2d104a39909246e4330a3c55
+	parent = 238c185b661d2c1e447004a2d8d968652e6c0530
+	method = merge
+	update = auto
+	cmdver = 0.4.1
