@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-sphinx.git
 	branch = master
-	commit = c4212432e6baedd6cb2beca0bd3179b476fd5a4f
-	parent = c5030f318bf5b50ef608a3c85261b8aa1bbfb1cb
+	commit = 15a49ddaff2b4a7009dddefed6ae174b9b73ead4
+	parent = 06ffbd546da80953ffc568c7585b0ebc2afdf443
 	method = merge
 	update = auto
 	cmdver = 0.4.1
