@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesE/exfat-utils.git
+	branch = master
+	commit = 7e266096bdc0d52c6b07bc40e5c1899674839eae
+	parent = 0d7fab484a1b677d7d35c98a137d62e39f382684
+	method = merge
+	update = auto
+	cmdver = 0.4.1
