@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-cogapp.git
+	branch = master
+	commit = 59a4f01194ea59be5dbb9b23f74c492094a83e7e
+	parent = 867caecc4f20ec12011ff28c97ca6cf33c2081aa
+	method = merge
+	update = auto
+	cmdver = 0.4.1
