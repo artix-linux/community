@@ -1,0 +1,47 @@
+# Maintainer: Eli Schwartz <eschwartz@archlinux.org>
+# Contributor: Alexandre Filgueira (faidoc) <alexfilgueira@antergos.com>
+# Contributor: Jan Alexander Steffens (heftig) <jan.steffens@gmail.com>
+
+pkgname=cinnamon-settings-daemon
+pkgver=4.0.3
+pkgrel=1
+pkgdesc="The Cinnamon Settings daemon"
+arch=('x86_64')
+url="https://github.com/linuxmint/${pkgname}"
+license=('GPL')
+depends=('cinnamon-desktop' 'colord' 'dbus-glib' 'libcanberra-pulse' 'libcups'
+         'libgnomekbd' 'libgudev' 'libnotify' 'librsvg' 'libwacom' 'nss' 'polkit'
+         'pulseaudio-alsa' 'upower')
+optdepends=('cinnamon-translations: i18n')
+makedepends=('autoconf-archive' 'intltool' 'python' 'xf86-input-wacom')
+options=('!emptydirs')
+source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/${pkgver}.tar.gz")
+sha256sums=('2b2530c089cf4d1f52510d00b38abc8f037776f61cb02942f3a3bbf242239c4f')
+
+prepare() {
+    cd "${srcdir}"/${pkgname}-${pkgver}
+
+    autoreconf -fi
+}
+
+build() {
+    cd "${srcdir}"/${pkgname}-${pkgver}
+
+    ./configure --prefix=/usr \
+                --sysconfdir=/etc \
+                --localstatedir=/var \
+                --libexecdir="/usr/lib/${pkgname}" \
+                --enable-systemd \
+                --enable-polkit
+
+    #https://bugzilla.gnome.org/show_bug.cgi?id=656231
+    sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
+
+    make
+}
+
+package() {
+    cd "${srcdir}"/${pkgname}-${pkgver}
+
+    make DESTDIR="$pkgdir" install
+}
