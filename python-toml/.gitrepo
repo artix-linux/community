@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-toml.git
 	branch = master
-	commit = 8f5d368c01e781d721d52b44142f11cf39cb2aad
-	parent = ff024ec988b9588b9582fecf33d633a31808baae
+	commit = aed09496b9de2e521280312f2ea4ae9c4b7285ba
+	parent = 6b7cd1fc5590aaa32f221280e0f417788bbcd07c
 	method = merge
 	update = auto
 	cmdver = 0.4.1
