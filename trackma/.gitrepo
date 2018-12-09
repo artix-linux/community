@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesT/trackma.git
+	branch = master
+	commit = 2d643061033913bd71117638132481dd8b051982
+	parent = 249315f10ed12764ffce5c43c7943817fc59405d
+	method = merge
+	update = auto
+	cmdver = 0.4.1
