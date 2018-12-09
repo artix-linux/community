@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesY/yaml-cpp.git
+	branch = master
+	commit = 89300f9a4693daee30abdbb62479b9db3dab18be
+	parent = 47a31261ac36f21977946e5d206d5e3117e33e13
+	method = merge
+	update = auto
+	cmdver = 0.4.1
