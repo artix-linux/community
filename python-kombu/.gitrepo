@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-kombu.git
+	branch = master
+	commit = b772fcb13605ec28f9e8d173b1fc7859b269cd5b
+	parent = 8ac81341086504257a66173fa6b92e20078abbc7
+	method = merge
+	update = auto
+	cmdver = 0.4.1
