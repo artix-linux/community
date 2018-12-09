@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-elasticsearch.git
+	branch = master
+	commit = 06148843f36e970d60db25498a324cd11fa437e7
+	parent = 17a6c0a2ad29ad1f761c0b9858ae8bf4b5bd9d8e
+	method = merge
+	update = auto
+	cmdver = 0.4.1
