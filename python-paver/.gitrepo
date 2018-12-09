@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-paver.git
+	branch = master
+	commit = f651be6196c9db4c3f30772e410c29738d7da444
+	parent = e6081d66e777ba3654b6fd63a482db96b29eaff1
+	method = merge
+	update = auto
+	cmdver = 0.4.1
