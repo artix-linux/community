@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-eventlet.git
 	branch = master
-	commit = 53fd605fd4e92892349eae67e44875aad4665bbd
-	parent = 0c068dae7421e4ff04fb6034262caa2e04a2d0f7
+	commit = ac2b08f9c797d9f19c9fc666515845bd16c9efd5
+	parent = 35c3a14182c756a3f113d84291380c8a14884a9d
 	method = merge
 	update = auto
 	cmdver = 0.4.1
