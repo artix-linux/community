@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesR/rng-tools.git
+	branch = master
+	commit = d5e920e7ec79bed891d18d20988ff4fc05010338
+	parent = 048e7483302d2bb44658ba5fb63b35feb65512ac
+	method = merge
+	update = auto
+	cmdver = 0.4.1
