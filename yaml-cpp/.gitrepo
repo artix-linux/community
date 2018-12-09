@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesY/yaml-cpp.git
 	branch = master
-	commit = 89300f9a4693daee30abdbb62479b9db3dab18be
-	parent = 47a31261ac36f21977946e5d206d5e3117e33e13
+	commit = 805b0079968402ff7376cc7245720447f936d30d
+	parent = 74f3df5a1086adb303f67fd962e19f72daac77b3
 	method = merge
 	update = auto
 	cmdver = 0.4.1
