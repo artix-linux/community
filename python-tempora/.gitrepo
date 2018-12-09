@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-tempora.git
 	branch = master
-	commit = 8e6e940679a297b61ec6bfbe4f0ac03107b31a6a
-	parent = 9143725e994c4e6e1baa7adbe6d9fd55dd8b4d31
+	commit = 32e9bf3119a640ef67ad32bab1e30a340d1196c7
+	parent = 7f41f6297288da19b62340cc291aa13a4809eeff
 	method = merge
 	update = auto
 	cmdver = 0.4.1
