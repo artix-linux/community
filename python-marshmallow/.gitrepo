@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-marshmallow.git
+	branch = master
+	commit = dde8061bb2ab59abb8396b9dccc5ab4f06735d2b
+	parent = 573294e5e6457b7aab74db9a807c3b787362b54a
+	method = merge
+	update = auto
+	cmdver = 0.4.1
