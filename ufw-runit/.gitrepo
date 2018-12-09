@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesU/ufw-runit.git
 	branch = master
-	commit = f51c919637b17a9a6621d313847e8ef28b0b058e
-	parent = 03666c2433311cb354da59d05463541a52b9e424
+	commit = 2cfad59185492be36377d59833b15c7ee00b652c
+	parent = 2e18d3e574545d93701044a0c732d29e46c2f800
 	method = merge
 	update = auto
 	cmdver = 0.4.1
