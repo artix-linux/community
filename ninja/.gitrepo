@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesN/ninja.git
+	branch = master
+	commit = a85705b0e22ffb81b597301a938b0b2e4390a349
+	parent = 16b663c2619deb2752a88c0da98300391852b314
+	method = merge
+	update = auto
+	cmdver = 0.4.1
