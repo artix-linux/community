@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesG/grub-theme.git
 	branch = master
-	commit = 3f5f3319d8c791b9644aadb4dc6735d19e038aef
-	parent = d0d9388df8e177ad485f127f042197665fbe7ce8
+	commit = f451e19f1f146987f80b458210b0bdbe824649bb
+	parent = 73a7a93efd6c4d740d8c65148be49317b109078e
 	method = merge
 	update = auto
 	cmdver = 0.4.1
