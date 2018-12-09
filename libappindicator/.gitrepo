@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesL/libappindicator.git
+	branch = master
+	commit = e6641047a944d8644bdb39af9a50ede7fa5257d9
+	parent = c2742a3befb6e11113e1c2865381bc62e20b43f6
+	method = merge
+	update = auto
+	cmdver = 0.4.1
