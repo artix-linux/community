@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesO/octopi.git
+	branch = master
+	commit = dda5d6621011fe096bdb29d88943cad072d5813f
+	parent = c38a51e2c6187ea20de3ce8aa19c9c9724f2ef8a
+	method = merge
+	update = auto
+	cmdver = 0.4.1
