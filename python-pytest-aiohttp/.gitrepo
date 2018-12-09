@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-aiohttp.git
+	branch = master
+	commit = 4600cd47d11e57cd1dbf032e571aa425e0fcd09e
+	parent = 33ccead188215a75a91a18658b31bd2eb0d1959c
+	method = merge
+	update = auto
+	cmdver = 0.4.1
