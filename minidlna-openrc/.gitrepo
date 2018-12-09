@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesM/minidlna-openrc.git
+	branch = master
+	commit = 908d9e3de28af610e9a66af253de10b5f71dc420
+	parent = e134137bd49300161eebcc298fe3c8800646a02e
+	method = merge
+	update = auto
+	cmdver = 0.4.1
