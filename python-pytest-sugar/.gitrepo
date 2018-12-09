@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-sugar.git
+	branch = master
+	commit = 7c90d45fd3e2e8313f6cd63d1fc57c0616caa118
+	parent = d1e5baf978613e052f7437f5ccd261ff0a1e1ea4
+	method = merge
+	update = auto
+	cmdver = 0.4.1
