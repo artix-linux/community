@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesP/polipo-openrc.git
 	branch = master
-	commit = 0f4ac8cc157f641835ffd01bbc66ea201e3b2eae
-	parent = aea5fa88444d05e148d35feb03ac0c0c3e32da11
+	commit = 72a19242cc6958434813334754fb576c591a4a35
+	parent = 9745f5d1da0584e83807d5ac745f6633f7228951
 	method = merge
 	update = auto
 	cmdver = 0.4.1
