@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesZ/znc-runit.git
 	branch = master
-	commit = c0fb0a57b98e2e1da071b301803f9ed109476da2
-	parent = 8540296cd507016abcb4ccbe1fb078c433b66a4d
+	commit = 57a09da620db913fa5dd6630c005262a94ee7a35
+	parent = f1694cc674f02385c68d9a3fb0d1bed37ef1b44d
 	method = merge
 	update = auto
 	cmdver = 0.4.1
