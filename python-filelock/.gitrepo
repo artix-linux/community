@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-filelock.git
+	branch = master
+	commit = af2654cb98ca7a6784b023197444cce4ea537726
+	parent = 9d0d3fb558db768df8f894bef97a00ae7beb241a
+	method = merge
+	update = auto
+	cmdver = 0.4.1
