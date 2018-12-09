@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-openstacksdk.git
+	branch = master
+	commit = 7de74f8b327c1bf6d6a3f34aad4b2cf778e33b7e
+	parent = a50cf582d5ecd87a778ffbf2537b5b4ce0baf6b1
+	method = merge
+	update = auto
+	cmdver = 0.4.1
