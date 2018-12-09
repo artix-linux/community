@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-iso8601.git
 	branch = master
-	commit = 64b52211ed0176fe217a9e312ba7ba99357a16bf
-	parent = 79ed818e0d939e3137aad875916b77170f641ee8
+	commit = 6b98315994dcf4eed07d644f09cbcc5ba20f584e
+	parent = ce5d00323c65eb9e156b5271b11d69834144dbb7
 	method = merge
 	update = auto
 	cmdver = 0.4.1
