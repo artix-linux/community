@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-capturelog.git
 	branch = master
-	commit = 057c725e5164d2b39bfb04dbb49c1f7ad65284f7
-	parent = d6c4e7c35c0ec9c11532b0a3863fc8d994fe254a
+	commit = 8a12713afdf53deb1f4a025a4dec8f434989ae7a
+	parent = 3ab7c5e322a00650810899c2f70b3c2ed173bf0c
 	method = merge
 	update = auto
 	cmdver = 0.4.1
