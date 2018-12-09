@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesT/ttf-droid.git
+	branch = master
+	commit = 65403d2ceb900552972536b237ee0d5641261ccd
+	parent = 63e58c58fe96c9ff80636c0abaed4022d1eb8e84
+	method = merge
+	update = auto
+	cmdver = 0.4.1
