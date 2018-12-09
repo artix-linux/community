@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-email-validator.git
+	branch = master
+	commit = 16ce558a4ef05f784d74008abde4d9c7541a4167
+	parent = 41b54d087b8bed924492b92f1743864ddfb89480
+	method = merge
+	update = auto
+	cmdver = 0.4.1
