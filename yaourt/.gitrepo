@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesY/yaourt.git
+	branch = master
+	commit = 841fda9ce36ef1a7ab40154404dc5226f712d38a
+	parent = fb67b69d7b9ea15b180e4e8e7fd5197b9e7c349b
+	method = merge
+	update = auto
+	cmdver = 0.4.1
