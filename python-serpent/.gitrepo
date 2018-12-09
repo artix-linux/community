@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-serpent.git
 	branch = master
-	commit = 4ab23888c866a2a463e0221f5ff96e9e3c5975a3
-	parent = d76808582bb55510f1f633a76664fa666c5fce4b
+	commit = 107f15dc6f9906926ed2ce8af43a34ae67490da6
+	parent = 5ce3f7a21f44e0e8ce5880cd76b0c2c24a6e223c
 	method = merge
 	update = auto
 	cmdver = 0.4.1
