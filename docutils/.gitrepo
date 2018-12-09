@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesD/docutils.git
+	branch = master
+	commit = 332443cdcaf0a3160891f35639e852100afcfc6a
+	parent = b68f44293b9a9e616d67751d1b2f4c0e77fc6c62
+	method = merge
+	update = auto
+	cmdver = 0.4.1
