@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-dpcontracts.git
 	branch = master
-	commit = f20e58f982746743da96705668fddcc4eebe3895
-	parent = ff8276c397ed55e2d5a9913de05c49868119549b
+	commit = 3f5ce9ef87c14f70bcf5b0550230dea26cb59ec5
+	parent = b9a1b11953c0f9033514a82193ef8163eda963eb
 	method = merge
 	update = auto
 	cmdver = 0.4.1
