@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-tinycss2.git
+	branch = master
+	commit = 59ba482e83a29ce003f9dd36ef95a8f5ece314d9
+	parent = e10ec06a234d20788b202a22be93e3f72d01fd1e
+	method = merge
+	update = auto
+	cmdver = 0.4.1
