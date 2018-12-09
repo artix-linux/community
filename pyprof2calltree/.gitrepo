@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesP/pyprof2calltree.git
 	branch = master
-	commit = 44891b087b8b6e4c3b8cc038000bbefc2b1d2984
-	parent = 7b024f84ab19ec6a3dd169599351ce5cabb7c3cd
+	commit = d2b47ad51cdd23ffc78e9e4f96c05b6fabf92a07
+	parent = 2ab3f5861252721151f7e5fe5548d5a382b4c86d
 	method = merge
 	update = auto
 	cmdver = 0.4.1
