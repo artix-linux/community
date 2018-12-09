@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-waitress.git
+	branch = master
+	commit = 73d11e28ce2756332d5f7a9caae53684b2d51a45
+	parent = 5e8fcf2e7d11ac02cdb6fcf163c5512577f7cda0
+	method = merge
+	update = auto
+	cmdver = 0.4.1
