@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-more-itertools.git
 	branch = master
-	commit = db0b843aea0e9d612fa886adfd128b501d922430
-	parent = 35dbd013847ad98aa15d8eafd3e071722f6d07e8
+	commit = 5011d0cf1c7fea6a86d9ae150821470043fc64b5
+	parent = 1d9e7ee44f35714747b487d3f28dd960f3d3d7e6
 	method = merge
 	update = auto
 	cmdver = 0.4.1
