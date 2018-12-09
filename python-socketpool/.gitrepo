@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-socketpool.git
+	branch = master
+	commit = a312e38dcdd3ea631855ee3eced388615e07a3ac
+	parent = 49526ab3d6318b9651f7e74bad6adf2d19b575da
+	method = merge
+	update = auto
+	cmdver = 0.4.1
