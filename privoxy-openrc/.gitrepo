@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesP/privoxy-openrc.git
 	branch = master
-	commit = 80ca13cf1f310d84862f17b8e91d5a12abbbc778
-	parent = c2af59bedd77b489818024278f6a2d79e1b3235f
+	commit = 46f8bfcc7d9db9a90facc541c13a712ca056d150
+	parent = 310ddb2a62497f7da7be05e09579f443dd409757
 	method = merge
 	update = auto
 	cmdver = 0.4.1
