@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-webob.git
+	branch = master
+	commit = 4e847adccf91509efa8629e348c356beac72eb5e
+	parent = 02e76af37e46e77290198ac93629ed3cd189d16a
+	method = merge
+	update = auto
+	cmdver = 0.4.1
