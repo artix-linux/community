@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesT/tlp-openrc.git
+	branch = master
+	commit = 6bf4a58130456cd4da1cb193b00cbf0029d08865
+	parent = 7364a92425d5d1d61ea9183bb82cf5322ce9a4b4
+	method = merge
+	update = auto
+	cmdver = 0.4.1
