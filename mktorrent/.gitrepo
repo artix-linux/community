@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesM/mktorrent.git
+	branch = master
+	commit = 1fec449c2d556d13aea4343a1c141ac75f016ec4
+	parent = 8658d38931ee9b8b41988fa1485981ce2b20a021
+	method = merge
+	update = auto
+	cmdver = 0.4.1
