@@ -1,0 +1,27 @@
+# Maintainer: artoo <artoo@artixlinux.org>
+# Contributor: Philip Müller <philm[at]manjaro[dog]org>
+
+pkgbase=artix-artwork
+pkgname=('artix-icons' 'artix-backgrounds')
+pkgver=0.7.2
+pkgrel=1
+arch=('any')
+url="https://gitea.artixlinux.org/artix/artwork"
+license=('GPL')
+makedepends=('git')
+source=("${pkgbase}-${pkgver}.tar.gz::$url/archive/${pkgver}.tar.gz")
+sha256sums=('551a5512d3c3682c856b51155817cfe8306679d41e57db0efe48dbb0085dc421')
+
+package_artix-backgrounds(){
+    pkgdesc='Artix backgrounds'
+
+    cd artwork #-${pkgver}
+    make PREFIX=/usr DESTDIR=${pkgdir} install_backgrounds
+}
+
+package_artix-icons(){
+    pkgdesc='Artix icons'
+
+    cd artwork #-${pkgver}
+    make PREFIX=/usr DESTDIR=${pkgdir} install_icons
+}
