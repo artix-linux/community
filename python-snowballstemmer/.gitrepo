@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-snowballstemmer.git
+	branch = master
+	commit = efb4a2fa045a168f0253284aecdea85c7772d7b6
+	parent = 0f78c0c66cc6ba54713bf97579bfbf9f5542a52d
+	method = merge
+	update = auto
+	cmdver = 0.4.1
