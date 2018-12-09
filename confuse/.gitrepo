@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/confuse.git
 	branch = master
-	commit = aa9d5625fd883ab7dd37fb12e3f1bcc72cbc5f81
-	parent = 60335ba9f6bbac1702cdde6f6c7d5358d71b778e
+	commit = c568b770539d2299450c6200f5f54a38c68b215a
+	parent = 2cd496acb190093975103b3ed65676dcb03ce7c7
 	method = merge
 	update = auto
 	cmdver = 0.4.1
