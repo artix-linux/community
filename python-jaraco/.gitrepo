@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-jaraco.git
 	branch = master
-	commit = a13285028cd01a9d8246ec43ec1c1f482ec2bbab
-	parent = a180baba6b1a9c0100ee8ef266d89b43a4b0bdf5
+	commit = 6755aac31d51c4a57e4bef60a312649083dacbde
+	parent = 518a0f13d3d6cb97920093c158367c3bb0b6e770
 	method = merge
 	update = auto
 	cmdver = 0.4.1
