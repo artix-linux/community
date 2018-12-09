@@ -1,0 +1,3 @@
+GITLAB_USER=gitlab:gitlab
+GITLAB_BASE=/usr/share/webapps/gitlab
+LOGDIR=/var/log/gitlab
