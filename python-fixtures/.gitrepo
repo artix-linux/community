@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-fixtures.git
 	branch = master
-	commit = b56866d227639eeaa3c696537688c102b564fd01
-	parent = 132377aade347a3007d56fc62cd260f932ddcfa3
+	commit = 29dcfd75cd897518c95565157c94a20fcfbcd1c0
+	parent = ba4ec5aecec2d889364851a540f1783bd46c7074
 	method = merge
 	update = auto
 	cmdver = 0.4.1
