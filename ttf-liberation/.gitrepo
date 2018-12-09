@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesT/ttf-liberation.git
+	branch = master
+	commit = 948d4dc2665ed505f0fc38331420befb490e175e
+	parent = a94e77e0fe83fad5aec80e50ad9c5fe0601fe808
+	method = merge
+	update = auto
+	cmdver = 0.4.1
