@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesT/terminus-font.git
+	branch = master
+	commit = c66b2c27585681802fdc18233332edbc5505edb3
+	parent = 453e9d8a5ba73ec70506aa8e6eaa9104b1210ba9
+	method = merge
+	update = auto
+	cmdver = 0.4.1
