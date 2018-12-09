@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesP/powertop.git
+	branch = master
+	commit = 19b90d37e52b0d72da0558ca6f3918f3afde338a
+	parent = 3ec29d6f65c33c2c660bee4d247f30a210972f03
+	method = merge
+	update = auto
+	cmdver = 0.4.1
