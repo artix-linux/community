@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python2-dpcontracts.git
+	branch = master
+	commit = 1c57cbcde18ef5f6733372104cd8e7829daa978d
+	parent = 4debd8257660b85106f44f6e48a184b7921355f7
+	method = merge
+	update = auto
+	cmdver = 0.4.1
