@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-portend.git
 	branch = master
-	commit = ec7996a170973d9e4cc6cd833aff001d513e2b70
-	parent = f42a2fa77cdaa5d5eba5c271cbc875001b36e821
+	commit = fcc559bc8848a8a3ec04832eeb58b3d312504cbf
+	parent = e12d7628c0641e06b8fc919d5739e00c0c380bb7
 	method = merge
 	update = auto
 	cmdver = 0.4.1
