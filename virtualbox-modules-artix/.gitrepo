@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesV/virtualbox-modules-artix.git
+	branch = master
+	commit = 4788a1bfda3fb4cfdffe44b573858cc9706c222d
+	parent = e9570243753ae6fbb10739a27be0dc40cf75774c
+	method = merge
+	update = auto
+	cmdver = 0.4.1
