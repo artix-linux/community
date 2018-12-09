@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesT/thermald-runit.git
 	branch = master
-	commit = 43ab6b50441e22d243a85bbd7c65688271df73b3
-	parent = 1547de9f62dac2ee509e94eb324de3a69a460dca
+	commit = c033bef7ef81a7c243bf355576d35a132d5090e6
+	parent = cd595dfbe63df063a9e46b668de25aa13e42fa75
 	method = merge
 	update = auto
 	cmdver = 0.4.1
