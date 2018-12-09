@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python2-openid.git
 	branch = master
-	commit = bce6c1c6547610279ccaab2988d64dc6d01b2a0e
-	parent = 8dbcaf28fd1f8d544afc72ea0046af1256b2aae4
+	commit = 9e8541fe4ad5c73eeae2b7e72c30d5795ec8287b
+	parent = 60c29f31c28159c7f1130225bbc729603923dddf
 	method = merge
 	update = auto
 	cmdver = 0.4.1
