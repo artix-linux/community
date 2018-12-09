@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesF/flake8.git
+	branch = master
+	commit = 6cf8a272fce8a131aacf9cff953bc72a5a511dd3
+	parent = f91e6c52ab699f69f1ed5b8a0c237f13ae6c0e1a
+	method = merge
+	update = auto
+	cmdver = 0.4.1
