@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-tinycss2.git
 	branch = master
-	commit = 59ba482e83a29ce003f9dd36ef95a8f5ece314d9
-	parent = e10ec06a234d20788b202a22be93e3f72d01fd1e
+	commit = 70a47e80b4458e135e5413521227357bf3cfa1cf
+	parent = 91aad1f5b60a18ce2daaba4970d3168dd6e2f66f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
