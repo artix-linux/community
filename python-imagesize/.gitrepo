@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-imagesize.git
+	branch = master
+	commit = 9ab89a549a28d486e2710c47ec035499eb2b71c9
+	parent = 13805093aec23f604109dd9b1ccd96b5dfab9c59
+	method = merge
+	update = auto
+	cmdver = 0.4.1
