@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-jinja.git
+	branch = master
+	commit = 04327f15b4abd2a75bcc2919536f3c901d825de8
+	parent = e014066df1fc016b0d7a95262a4e2a5da0fbad7a
+	method = merge
+	update = auto
+	cmdver = 0.4.1
