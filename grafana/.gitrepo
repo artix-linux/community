@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesG/grafana.git
 	branch = master
-	commit = 8a9592e62c68b2d42f6d263ae5b61e12f705f079
-	parent = 1e277d8d832d7fb5b582c3bc0e5edc9c3b27ff25
+	commit = 4aa98d3e6cff1dbed4502d653c512dd7a355dfbc
+	parent = e26a4ff553a976c58dc9b3c8b8a80448d9ff5e0b
 	method = merge
 	update = auto
 	cmdver = 0.4.1
