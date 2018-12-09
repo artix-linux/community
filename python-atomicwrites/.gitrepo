@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-atomicwrites.git
 	branch = master
-	commit = 2d34c2e4c8694fe58d32dd88b036d4aab0ba1da3
-	parent = 5c01e8303af93806d26b5c34ce683bcd0a046107
+	commit = 3c413976d1230eec3b95bd69f71d63ed5468224c
+	parent = 391aee1c0042896a08e79f5d9a09d639df3590b3
 	method = merge
 	update = auto
 	cmdver = 0.4.1
