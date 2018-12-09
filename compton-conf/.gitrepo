@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesC/compton-conf.git
+	branch = master
+	commit = cad14f97998df95b52abcd54787fc11cd9379393
+	parent = 57aa4a276fc7b466f4604a80ceefb07dc5aa3e2f
+	method = merge
+	update = auto
+	cmdver = 0.4.1
