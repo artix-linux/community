@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesT/trackma.git
 	branch = master
-	commit = 2d643061033913bd71117638132481dd8b051982
-	parent = 249315f10ed12764ffce5c43c7943817fc59405d
+	commit = 3e992a7a4d3ce52d72ca602fdfe2fb37f67bd664
+	parent = 23d9b7367ddb9849f03e3c562b291c1d4353bd07
 	method = merge
 	update = auto
 	cmdver = 0.4.1
