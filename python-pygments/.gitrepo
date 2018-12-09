@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-pygments.git
+	branch = master
+	commit = 63d6171d604c1d5b6197f5982728cedc0e53cb97
+	parent = 0fa867cc521e83e88bd48e9e3c0cb8534174ae95
+	method = merge
+	update = auto
+	cmdver = 0.4.1
