@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesS/syncthing-openrc.git
 	branch = master
-	commit = 2987e85b798fd7cd576c3f9331fae7037cff56a9
-	parent = 12b21cae85a3fcb0794b51b288e7a92c588b9011
+	commit = dec786d5598456400ab70b1680d6355b507bb127
+	parent = b98688d979d2e10c926a9c5c9e7458d5e1309b55
 	method = merge
 	update = auto
 	cmdver = 0.4.1
