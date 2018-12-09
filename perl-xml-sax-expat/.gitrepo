@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPerl/perl-xml-sax-expat.git
 	branch = master
-	commit = 8ec6717905ade0b8ef9c13bef58069676d276c85
-	parent = d491ac1aca92a340a8f67eaf8fb6493ade3227d4
+	commit = a323eb8d779dbc1f6c203a802e373b49e896755d
+	parent = 4d3c0307b991e96d4e205f948defb0e08149d5ea
 	method = merge
 	update = auto
 	cmdver = 0.4.1
