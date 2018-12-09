@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesZ/zeromq.git
+	branch = master
+	commit = 97f6edbaa673be240b26e2cee14f5031d477009e
+	parent = e2149f07e53d2a798861f391cff9e482b2f34661
+	method = merge
+	update = auto
+	cmdver = 0.4.1
