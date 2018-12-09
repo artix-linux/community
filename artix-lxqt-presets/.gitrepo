@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesA/artix-lxqt-presets.git
+	branch = master
+	commit = 547b42e230b502a8259d102f448724ee7dcfbc01
+	parent = 97296d6019b51c755a9ab5b1029e678a5dfee2e0
+	method = merge
+	update = auto
+	cmdver = 0.4.1
