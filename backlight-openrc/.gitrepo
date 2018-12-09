@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesB/backlight-openrc.git
+	branch = master
+	commit = f6042c66402bf066396ad32ab16d2ef67db678dc
+	parent = 1ee2162e9bc89799c5570b69c8649e573b21ad23
+	method = merge
+	update = auto
+	cmdver = 0.4.1
