@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesL/libnewt.git
+	branch = master
+	commit = 683e5286c353c0eb5b6242b952e31808b4e6ac96
+	parent = dd99aa9ad05214fd10b37bf58432c7045ea0dccf
+	method = merge
+	update = auto
+	cmdver = 0.4.1
