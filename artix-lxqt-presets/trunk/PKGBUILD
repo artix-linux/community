@@ -1,0 +1,43 @@
+# Maintainer: artoo <artoo@cromnix.org>
+# Contributor: Philip Müller <philm[at]manjaro[dog]org>
+
+_pkgbase=desktop-presets
+
+pkgname='artix-lxqt-presets'
+pkgver=0.7.9
+pkgrel=2
+pkgdesc='Artix lxqt presets'
+arch=('any')
+url="https://gitea.artixlinux.org/artix/desktop-presets"
+license=('GPL')
+provides=('desktop-presets')
+depends=('breeze-icons'
+        'breeze-gtk'
+        'artix-backgrounds'
+        'artix-icons'
+        'xcursor-breeze')
+makedepends=('git')
+source=("${_pkgbase}-${pkgver}.tar.gz::$url/archive/${pkgver}.tar.gz")
+sha256sums=('18e9dedf73d16fe768180b5c784e4b2b193a587900feab94c5a68d633b52fe40')
+
+_inst_dir(){
+    cd ${_pkgbase} #-${pkgver}
+    local profile="$1"
+
+    install -d ${pkgdir}/etc
+    cp -r $profile/skel ${pkgdir}/etc
+
+    if [[ -d $profile/schemas ]];then
+        install -d ${pkgdir}/usr/share/glib-2.0/schemas
+        cp -r $profile/schemas ${pkgdir}/usr/share/glib-2.0/schemas
+    fi
+
+    if [[ -d $profile/scripts ]];then
+        install -d ${pkgdir}/usr/bin
+        cp -r $profile/scripts ${pkgdir}/usr/bin
+    fi
+}
+
+package_artix-lxqt-presets() {
+    _inst_dir 'lxqt'
+}
