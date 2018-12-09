@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-async-timeout.git
+	branch = master
+	commit = ea4aee3b08122e54bab2d696ce471729fc069828
+	parent = 58bc12058fb41adfb592efcc48c32b459b15ed99
+	method = merge
+	update = auto
+	cmdver = 0.4.1
