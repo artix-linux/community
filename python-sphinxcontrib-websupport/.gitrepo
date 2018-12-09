@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-sphinxcontrib-websupport.git
+	branch = master
+	commit = 0e084538e0b445b40064967e3e3079c44fe75e28
+	parent = 555ef965680012e61fc86e8e21922fc19bce5094
+	method = merge
+	update = auto
+	cmdver = 0.4.1
