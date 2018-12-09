@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-async-timeout.git
 	branch = master
-	commit = ea4aee3b08122e54bab2d696ce471729fc069828
-	parent = 58bc12058fb41adfb592efcc48c32b459b15ed99
+	commit = 69bdeaf866368312e4fb789016189cd052455d2e
+	parent = acacd7fd545c0dd6fefacbfa16ce524d6fa4ddc3
 	method = merge
 	update = auto
 	cmdver = 0.4.1
