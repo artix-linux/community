@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-cryptography-vectors.git
 	branch = master
-	commit = 688f399b06c47cac3e2023219bde74d1b4cc9343
-	parent = 6e3b8d8772b8b2af35b13421fa9b54ed9ad1b873
+	commit = f7cb7857600d042f776ed4dcc049b5db86004f9e
+	parent = fc29d6ac3e7929dec6dcebac4268887888d66b14
 	method = merge
 	update = auto
 	cmdver = 0.4.1
