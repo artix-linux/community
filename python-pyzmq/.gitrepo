@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-pyzmq.git
+	branch = master
+	commit = ec1adcaac695f6e6188c53a10282b9fbb6cfdac5
+	parent = 5d9fc3f05806f11f1b3cc00dafa33e24a9131dbd
+	method = merge
+	update = auto
+	cmdver = 0.4.1
