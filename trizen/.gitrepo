@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesT/trizen.git
+	branch = master
+	commit = 11d3d29691fda8dde2d7d12c0bdba4f2472786e3
+	parent = d009b3507221888cff5a02ad9f11757028c24a75
+	method = merge
+	update = auto
+	cmdver = 0.4.1
