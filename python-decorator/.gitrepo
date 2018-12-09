@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-decorator.git
+	branch = master
+	commit = 0175dd3f6d9017b02390f4e98949331a99cd3efc
+	parent = 6f998de488d4c5f81fe50458ebcb1d9bf853b837
+	method = merge
+	update = auto
+	cmdver = 0.4.1
