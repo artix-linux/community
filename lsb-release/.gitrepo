@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/lsb-release.git
 	branch = master
-	commit = 291e4c132e333df18f34a54c497dab7112c949e3
-	parent = 62025c1cb11dc7c8d771fd13d568a1a9ef252239
+	commit = e91edec527ac443f76b9bf542d85bf4c9900be45
+	parent = 0e813e7f020c722029be0f9f858676989c702574
 	method = merge
 	update = auto
 	cmdver = 0.4.1
