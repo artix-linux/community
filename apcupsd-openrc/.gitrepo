@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesA/apcupsd-openrc.git
 	branch = master
-	commit = d839f3b54d7f22940d895e46cbee6cac4080db11
-	parent = 0f443b55d44a458b98f48b0eb93950d5e25c81d9
+	commit = 904f117ce10aea467de6811cae37c2849c4cb044
+	parent = c6734890e5d683b6691d3a3e88633312053a2827
 	method = merge
 	update = auto
 	cmdver = 0.4.1
