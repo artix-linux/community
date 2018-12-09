@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-redis.git
 	branch = master
-	commit = 8dce46ef3c64c54c6af0a4da4b11d03fe7899930
-	parent = 26d5d56892d40fc44de3297e747fe5a38fe07be9
+	commit = 1a17c93d3fc07a93f39f99bc7e12b5fa032de913
+	parent = adba1403a28fd6823714148105bac5d78ac1f097
 	method = merge
 	update = auto
 	cmdver = 0.4.1
