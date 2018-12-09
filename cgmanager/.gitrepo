@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/cgmanager.git
 	branch = master
-	commit = b862903323e5bd63a7a7dcc76a72fad5e0088674
-	parent = 7a2357ddefe5510417c6c8d2aa3aefc11c67d48d
+	commit = 6851a307c72bc8892986143a5b4bbd4c1066bcba
+	parent = 8763380b015001e166bd260e03f016a3cd9d4214
 	method = merge
 	update = auto
 	cmdver = 0.4.1
