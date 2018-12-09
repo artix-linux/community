@@ -1,0 +1,66 @@
+# Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
+
+pkgname=hostapd
+pkgver=2.7
+pkgrel=1
+pkgdesc="IEEE 802.11 AP, IEEE 802.1X/WPA/WPA2/EAP/RADIUS Authenticator"
+arch=('x86_64')
+url="https://w1.fi/hostapd/"
+license=(GPL)
+depends=('openssl' 'libnl')
+options=(emptydirs)
+validpgpkeys=('EC4AA0A991A5F2464582D52D2B6EF432EFC895FA') # Jouni Malinen
+source=(https://w1.fi/releases/$pkgname-$pkgver.tar.gz{,.asc}
+        config
+        hostapd-2.3-noscan.patch
+        openvswitch.patch)
+sha256sums=('21b0dda3cc3abe75849437f6b9746da461f88f0ea49dd621216936f87440a141'
+            'SKIP'
+            'a39e011bf0c3f2d21db8816a7e608a99b9d598c7b559d58d026f10e4359d428d'
+            '46a1967d7ec2fb190adde23c1bbd59f54c29902ae257276daef909dc842287f2'
+            'eeb07b5a3b971b3108ce8c5c947f4600d98ec9b338b8b88a96a7774cef269e49')
+
+prepare() {
+  cd $pkgname-$pkgver
+  local i; for i in "${source[@]}"; do
+    case $i in
+      *.patch)
+        msg2 "Applying patch $i"
+        patch -p1 -i "$srcdir/$i"
+        ;;
+    esac
+  done
+}
+
+build() {
+  cd $pkgname-$pkgver/hostapd
+  cp ../../config .config
+  sed -i 's#/etc/hostapd#/etc/hostapd/hostapd#' hostapd.conf
+  export CFLAGS="$CFLAGS $(pkg-config --cflags libnl-3.0)"
+  make
+}
+
+package() {
+
+  cd $pkgname-$pkgver
+
+  # License
+  install -Dm644 COPYING "$pkgdir/usr/share/licenses/$pkgname/COPYING"
+
+  cd hostapd
+
+  # Binaries
+  install -d "$pkgdir/usr/bin"
+  install -t "$pkgdir/usr/bin" hostapd hostapd_cli
+
+  # Configuration
+  install -d "$pkgdir/etc/hostapd"
+  install -d "$pkgdir/usr/share/doc/hostapd"
+  install -m644 -t "$pkgdir/usr/share/doc/hostapd" \
+    hostapd.{accept,conf,deny,eap_user,radius_clients,sim_db,vlan,wpa_psk} \
+    wired.conf hlr_auc_gw.milenage_db
+
+  # Man pages
+  install -Dm644 hostapd.8 "$pkgdir/usr/share/man/man8/hostapd.8"
+  install -Dm644 hostapd_cli.1 "$pkgdir/usr/share/man/man1/hostapd_cli.1"
+}
