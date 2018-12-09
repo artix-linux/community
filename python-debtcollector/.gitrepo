@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-debtcollector.git
+	branch = master
+	commit = 0a9da2007e9f4dfba77782556205d2ae6ce8bea5
+	parent = a5781beb3f61d4736a18f68236d1aeb69dce5878
+	method = merge
+	update = auto
+	cmdver = 0.4.1
