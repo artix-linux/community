@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesL/libreplaygain.git
+	branch = master
+	commit = b20c7835510ce0e7759c36f5636acd759868a1b4
+	parent = b7d5de716c9a84ad8c7eab5341df0466307a34f9
+	method = merge
+	update = auto
+	cmdver = 0.4.1
