@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesP/pdnsd-openrc.git
+	branch = master
+	commit = 9d5669382965b815f7ddc313076bc394dc38bd31
+	parent = cb77191a4738c873bb4a3c9f907c486f3fac67f3
+	method = merge
+	update = auto
+	cmdver = 0.4.1
