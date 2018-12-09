@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-pysocks.git
+	branch = master
+	commit = 757405a7f9efb02a1d753fd677754fe15be400e2
+	parent = f9704a8b61345cfd367e990b05a6f115fe614ce1
+	method = merge
+	update = auto
+	cmdver = 0.4.1
