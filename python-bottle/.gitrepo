@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-bottle.git
+	branch = master
+	commit = 9ff00c5a510485682a4a12e079c01f623e87ec25
+	parent = d50adf887141b444901ff639cb53bb49ac265cc1
+	method = merge
+	update = auto
+	cmdver = 0.4.1
