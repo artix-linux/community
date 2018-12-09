@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesS/stubby-runit.git
+	branch = master
+	commit = 809a0a4c5afc73ff1fb33d2b17d09ced1f9fbba7
+	parent = bf7c4dd102e12e05a1f6f2cb9499838a6daca28b
+	method = merge
+	update = auto
+	cmdver = 0.4.1
