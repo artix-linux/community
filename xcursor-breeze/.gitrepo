@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesX/xcursor-breeze.git
+	branch = master
+	commit = 7dd0b89faf266739c632ff849c415301cc3acc14
+	parent = 22d7d51b9a9387363044c2c7dbcd08ae940ea65b
+	method = merge
+	update = auto
+	cmdver = 0.4.1
