@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-flake8.git
+	branch = master
+	commit = 0368cd4264067190c5aa25b0a89717ce73c56198
+	parent = b57050b17c9bd0638ab7e6275024538fa894950a
+	method = merge
+	update = auto
+	cmdver = 0.4.1
