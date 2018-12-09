@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-future.git
 	branch = master
-	commit = b953bb1e7f24df3a6d37d68813b1f60e34124cc9
-	parent = e122525988dc8189fe351b1d6228b0ddc58cb3fd
+	commit = b5c949f3164777db30d08b3688742ca50f0af363
+	parent = 9172d274bee1a9b955de9b76e403edfe21a56077
 	method = merge
 	update = auto
 	cmdver = 0.4.1
