@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesR/ragel.git
+	branch = master
+	commit = d1141e069b5aa09c0e9e72b5ba8f1a4a3920cd0d
+	parent = 72f9e5c9347d8099ec7d1b80a821a91127fa116a
+	method = merge
+	update = auto
+	cmdver = 0.4.1
