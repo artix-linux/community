@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-cherrypy.git
 	branch = master
-	commit = 4090ba6fab913188849faa739b72bfdb4064785f
-	parent = 076df874972e0723c8ad243f5e4229c531fc6e75
+	commit = 4327a841069cf2273b5ac6e2dbcbff5c36350cc7
+	parent = 383a180af165db320e37da4b40f53499fa2b7a90
 	method = merge
 	update = auto
 	cmdver = 0.4.1
