@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-coverage.git
 	branch = master
-	commit = e4874131c73e49c39a7597a48985f107ea579748
-	parent = 7b7644c9c31518db233e7b9d961c0d36830e7fe9
+	commit = d684bd93ad49a5da8568aa07776dd3a7596e3f4d
+	parent = ede7678affeeaa3cdce916cb0df605514256efef
 	method = merge
 	update = auto
 	cmdver = 0.4.1
