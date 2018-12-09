@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesJ/jansson.git
 	branch = master
-	commit = b9a3cf7d03cb0c06d627118d74d741198f05d50e
-	parent = 12da9acc5a8fa3464c85bf29d15fe6220e16c816
+	commit = 206bf3f1cd4c0f7bd6667316134c9ca572248e9e
+	parent = afdcd62dfeeefec26f74f881ffd2fe33e0aa98e8
 	method = merge
 	update = auto
 	cmdver = 0.4.1
