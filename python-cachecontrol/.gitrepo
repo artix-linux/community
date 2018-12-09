@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-cachecontrol.git
+	branch = master
+	commit = 811a69e54beab492810b0642f6650d91b1f1f54b
+	parent = 4aff9e3356e78724f52e4dbddb47df88eb804ac2
+	method = merge
+	update = auto
+	cmdver = 0.4.1
