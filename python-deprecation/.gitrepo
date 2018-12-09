@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-deprecation.git
 	branch = master
-	commit = 999a5881275512e4c5615b4d716c33af24f3836b
-	parent = 3862fdd603a3b412794e0bdf0efb05e25cd35602
+	commit = 82240e4305562289cc5506d866e7c348f39568bd
+	parent = 755728b38831ae0690742453aba81bf1d9f8cd9d
 	method = merge
 	update = auto
 	cmdver = 0.4.1
