@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesP/postgrey.git
 	branch = master
-	commit = b2c37b757fc603713ace98a20c9fa6e26ec9510a
-	parent = 4bac4881dd2bd79b42de6b3d74efc03d8255f426
+	commit = 202a6373baf65d621fc906fc6e4cf1e07159cdb1
+	parent = 88e030c24e1a341ee95de6072f5b85d0b5a2f8de
 	method = merge
 	update = auto
 	cmdver = 0.4.1
