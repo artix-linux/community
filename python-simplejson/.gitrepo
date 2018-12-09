@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-simplejson.git
 	branch = master
-	commit = b0e2b874b0a52a6a0fa1df9e80c5b50bebda1d28
-	parent = cc123a78092a0fd50d80447e83ad4695a74e7877
+	commit = c6f2f21ef9031f350e92ef1e60bc9d6a97f52624
+	parent = f0bd0f05130a29c3e56ad2e65e24b3fd98d2b48c
 	method = merge
 	update = auto
 	cmdver = 0.4.1
