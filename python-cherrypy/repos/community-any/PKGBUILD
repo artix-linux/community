@@ -1,0 +1,56 @@
+# Maintainer:  Thore Bödecker <foxxx0@archlinux.org>
+# Contributor: Laurent Soest <laurent.soest@gmail.com>
+# Contributor: Angel Velasquez <angvp@archlinux.org>
+# Contributor: Kaiting Chen <kaitocracy@gmail.com>
+# Contributor: Douglas Soares de Andrade <dsa@aur.archlinux.org>
+# Contributor: Armando M. Baratti <amblistas@ajato.com.br>
+# Contributor: Florian Richter <Florian_Richter@gmx.de>
+
+pkgname='python-cherrypy'
+_pkgname="${pkgname#python-}"
+pkgver=18.0.1
+pkgrel=1
+pkgdesc='A pythonic, object-oriented web development framework'
+arch=('any')
+url='https://cherrypy.org'
+license=('BSD')
+depends=('python' 'python-six' 'python-cheroot' 'python-portend' 'python-jaraco'
+  'python-more-itertools' 'python-zc.lockfile')
+makedepends=('python-setuptools' 'python-setuptools-scm' 'python-six'
+  'python-cheroot' 'python-portend' 'python-more-itertools' 'python-zc.lockfile')
+checkdepends=('python-tox')
+source=("${pkgname}-${pkgver}.tar.gz::https://github.com/${_pkgname}/${_pkgname}/archive/v$pkgver.tar.gz")
+sha512sums=('325e68193697ddcd26534998af0899333c5869071ca5454d2ca93975ebda67904ee9ebe30f325d7fc49d6e137a16dadef8371f650d5286d80b6026c953b1cfd2')
+
+    prepare() {
+  cd "${srcdir}/${_pkgname}-${pkgver}"
+  # apply patch from the source array (should be a pacman feature)
+  local filename
+  for filename in "${source[@]}"; do
+    if [[ "$filename" =~ \.patch$ ]]; then
+      msg2 "Applying patch ${filename##*/}"
+      patch -p1 -N -i "$srcdir/${filename##*/}"
+    fi
+  done
+}
+
+build() {
+  # setuptools wont find version from git tag
+  export SETUPTOOLS_SCM_PRETEND_VERSION="${pkgver}"
+  cd "${srcdir}/${_pkgname}-${pkgver}"
+  python ./setup.py build
+}
+
+check() {
+  cd "${srcdir}/${_pkgname}-${pkgver}"
+  tox
+}
+
+package() {
+  cd "${srcdir}/${_pkgname}-${pkgver}"
+
+  python ./setup.py install --root="${pkgdir}" --optimize=1
+
+  install -Dm644 LICENSE.md \
+    "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.md"
+}
