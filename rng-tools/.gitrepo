@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesR/rng-tools.git
 	branch = master
-	commit = d5e920e7ec79bed891d18d20988ff4fc05010338
-	parent = 048e7483302d2bb44658ba5fb63b35feb65512ac
+	commit = 8235d5d013b0890ebdbeccb018a863f0727f0e48
+	parent = 2d54671ed009af64de8f575eee38a72d8db65c07
 	method = merge
 	update = auto
 	cmdver = 0.4.1
