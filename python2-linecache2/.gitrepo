@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python2-linecache2.git
+	branch = master
+	commit = 8368e80ba8a5cd4e707012b771dd7f226609341e
+	parent = 0f153360ba2af6a06c2f5d7802046211c4939392
+	method = merge
+	update = auto
+	cmdver = 0.4.1
