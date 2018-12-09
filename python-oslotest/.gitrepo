@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-oslotest.git
+	branch = master
+	commit = 69ad4789f2b17ee5f79bd17177575b7eea4cc144
+	parent = 996992238fc3121b4508a5e2d669a14c797ed310
+	method = merge
+	update = auto
+	cmdver = 0.4.1
