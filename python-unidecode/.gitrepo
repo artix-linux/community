@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-unidecode.git
 	branch = master
-	commit = 04c70899aa8d9df61caa0670ea7c14a39acb91e2
-	parent = 7e30d1b40ab4be8c1fcb22b697f8bc3888b34208
+	commit = 6bfbd37303cbcfa7a749a53a9100b7b6144347d6
+	parent = dd366e8f59aaf094bcff43add1cc0566ebb9c164
 	method = merge
 	update = auto
 	cmdver = 0.4.1
