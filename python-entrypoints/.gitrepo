@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-entrypoints.git
 	branch = master
-	commit = 98f472a4b9e0034c37bd55f4d93248b65d0c7a52
-	parent = 13a2b8452f83904c292e32ceb1f789570150bf62
+	commit = 057989aa99f1febc7e58f8bab13c2cdb0afe7900
+	parent = 5de8b9098a98c5d6a749dff747ec8f5902397644
 	method = merge
 	update = auto
 	cmdver = 0.4.1
