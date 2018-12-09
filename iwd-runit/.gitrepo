@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesI/iwd-runit.git
 	branch = master
-	commit = f80e54b8a425ae430fce36a1de66f5ea0c259041
-	parent = 79a7452b10d8e43659ae2aa6bffe0446cf1fde66
+	commit = 5f5ae981ca9d50d2c191a2e29572a12680123573
+	parent = 7ac75d3c6cf2f0019471cc4884659fcf27e9ddc1
 	method = merge
 	update = auto
 	cmdver = 0.4.1
