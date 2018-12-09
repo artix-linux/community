@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesO/os-prober.git
 	branch = master
-	commit = f547b7bf93681974921cc8f25b5fbc0f01f109b5
-	parent = f03b147b3e5a4c14ecbd8dd1858c1edd64999133
+	commit = e27ca35919fba0ca3ad1b488cf4a9a436434b48c
+	parent = d71bf6228a675c10ef10f93b01d2a6b23aabd8da
 	method = merge
 	update = auto
 	cmdver = 0.4.1
