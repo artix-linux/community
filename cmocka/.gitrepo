@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesC/cmocka.git
+	branch = master
+	commit = 4529002641d048216cea762be1c5ad8da51afed7
+	parent = a8ff65b6182d3df3e7694a7aeb89e15157c2f800
+	method = merge
+	update = auto
+	cmdver = 0.4.1
