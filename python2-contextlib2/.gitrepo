@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python2-contextlib2.git
 	branch = master
-	commit = a7284302ff97a2189bd73f065d1f00ec502be79b
-	parent = debcba3d10b188313a4c21c61da4e07ce21a739f
+	commit = dfe03f262861436da92420043946d6718b961d5f
+	parent = b4893a270b54ecc39757a9356dbbc4428d6c6c45
 	method = merge
 	update = auto
 	cmdver = 0.4.1
