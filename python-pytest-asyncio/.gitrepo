@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-asyncio.git
 	branch = master
-	commit = a0476494b675a5bd9ebf3d05eae5444de5a37f10
-	parent = e5d95852b57c1606cdcf21e0a3bc7bb73d3b15b8
+	commit = 7f5308b8e23fb6534eed8e176252ed2201b050ee
+	parent = f1fbf94683e7528d76d18ef8671c51cff5131ca6
 	method = merge
 	update = auto
 	cmdver = 0.4.1
