@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-pygal.git
+	branch = master
+	commit = c5b4a0d831e569f083fd4c8c26c9c70a7f0688bc
+	parent = e155f901a3954b926bc707dda02f99e9a48ec77b
+	method = merge
+	update = auto
+	cmdver = 0.4.1
