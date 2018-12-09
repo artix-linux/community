@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-pandas-datareader.git
+	branch = master
+	commit = defccd30da214c2481655ca2a0adb1db3af36bf5
+	parent = 3851903436c6c947e877bc0502f5efa6adae437d
+	method = merge
+	update = auto
+	cmdver = 0.4.1
