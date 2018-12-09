@@ -1,0 +1,7 @@
+#!/usr/bin/dash
+
+case $BLOCK_BUTTON in
+  1) gsimplecal ;;
+esac
+
+date "+%d-%m-%Y"
