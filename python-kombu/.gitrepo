@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-kombu.git
 	branch = master
-	commit = b772fcb13605ec28f9e8d173b1fc7859b269cd5b
-	parent = 8ac81341086504257a66173fa6b92e20078abbc7
+	commit = 119165484972d96644a1d4b075ad9c28c276a9ac
+	parent = 4dc856446b92970173deef6f6efcdc881c5c7d66
 	method = merge
 	update = auto
 	cmdver = 0.4.1
