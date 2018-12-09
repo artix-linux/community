@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesC/cinnamon-session.git
+	branch = master
+	commit = 0beeb925b53f45c6f24abecb24c7cdfb37215d94
+	parent = 74c6044e5bee4309e685bb6fa6f98a57bfe81de9
+	method = merge
+	update = auto
+	cmdver = 0.4.1
