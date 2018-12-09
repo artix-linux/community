@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesD/dune.git
+	branch = master
+	commit = b5d5bb1ab6af6c06fca586529c6e58ec57534a64
+	parent = 56f51123112e99474bb44d14cb8179c7ac1a1629
+	method = merge
+	update = auto
+	cmdver = 0.4.1
