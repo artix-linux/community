@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesG/grafana.git
+	branch = master
+	commit = 8a9592e62c68b2d42f6d263ae5b61e12f705f079
+	parent = 1e277d8d832d7fb5b582c3bc0e5edc9c3b27ff25
+	method = merge
+	update = auto
+	cmdver = 0.4.1
