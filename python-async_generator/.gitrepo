@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-async_generator.git
+	branch = master
+	commit = 1468ed5f90c7c203b996475c2a466a7237248c25
+	parent = cad02918241237fbaf97118c5a5b29667add7249
+	method = merge
+	update = auto
+	cmdver = 0.4.1
