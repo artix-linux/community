@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-amqp.git
+	branch = master
+	commit = a49b9257b3f6fcaa1a278cece330e1a3e9502200
+	parent = a43859162c09094154265011f3bcdb829fc7615b
+	method = merge
+	update = auto
+	cmdver = 0.4.1
