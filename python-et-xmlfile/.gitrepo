@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-et-xmlfile.git
 	branch = master
-	commit = bddaca71c362885b6f786a37e5f153879fa62235
-	parent = a5a999b16a5728bbac6bab0e2dd6da35e7f5d245
+	commit = b02ab13bf5ead210e941d3bc53bfa5aac7c863a6
+	parent = a931aa751f3fa72a875b4654aac129c682f91499
 	method = merge
 	update = auto
 	cmdver = 0.4.1
