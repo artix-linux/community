@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesT/tinydns.git
 	branch = master
-	commit = dc4e17d9d302b6b4449d856576959ff60341dba3
-	parent = 524c991ad554ed8ee12e767a6f8b3427bfa1868c
+	commit = bef013437f78563e876dfecb488a48b5e8dad0d6
+	parent = cd7edfd11d0f91bfb6489047122fff51509368ae
 	method = merge
 	update = auto
 	cmdver = 0.4.1
