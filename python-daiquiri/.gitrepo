@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-daiquiri.git
+	branch = master
+	commit = 1b3fe3f453b7cecd3ebaa7d7180649eb2d486700
+	parent = 358b2dfac61d9442507b8c6d960179f858a3594e
+	method = merge
+	update = auto
+	cmdver = 0.4.1
