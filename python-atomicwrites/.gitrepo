@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-atomicwrites.git
+	branch = master
+	commit = 2d34c2e4c8694fe58d32dd88b036d4aab0ba1da3
+	parent = 5c01e8303af93806d26b5c34ce683bcd0a046107
+	method = merge
+	update = auto
+	cmdver = 0.4.1
