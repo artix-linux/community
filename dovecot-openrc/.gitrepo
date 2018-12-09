@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesD/dovecot-openrc.git
+	branch = master
+	commit = d7b93a7b80827ca4616fb1c3ccc58f7aed169f8f
+	parent = c3182b03261e18f03997fcb6b97622af56594c04
+	method = merge
+	update = auto
+	cmdver = 0.4.1
