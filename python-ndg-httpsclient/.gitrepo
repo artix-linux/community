@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-ndg-httpsclient.git
 	branch = master
-	commit = eccc03eba37e839046d7c7e7cef2a8534ad46dbc
-	parent = 128221e9c5dd4fc4db17a03f324835a46d29cc73
+	commit = 1133f24786c010daafaa0cde86904f10fd9215d7
+	parent = c41046f1c16c9cb1e0d1a9089994dc40ba5acf19
 	method = merge
 	update = auto
 	cmdver = 0.4.1
