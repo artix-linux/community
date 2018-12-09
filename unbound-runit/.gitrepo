@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesU/unbound-runit.git
 	branch = master
-	commit = 399be79e89abfcbb47dab6a00e9fbde09643bdc4
-	parent = a1a9d8aabb8fbb49c1bae08b4d08f92c2b1de5ce
+	commit = 2b8ae652a88ef72b29b75a7114d8fb03d929bcbf
+	parent = f1e170e04d57eaf128ebe7b5d015ca9f4579536f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
