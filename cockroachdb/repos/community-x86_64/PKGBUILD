@@ -1,0 +1,52 @@
+# Maintainer: Oscar Campos <damnwidget@artixlinux.org>
+
+pkgbase=cockroachdb
+pkgname=(
+	'cockroachdb-core'
+	'cockroachdb-enterprise'
+)
+pkgdesc="Distributed and resilient SQL database built on a transactional and strongly-consistent key-value store"
+pkgver=2.0.0
+pkgrel=1
+arch=('x86_64')
+url="https://www.cockroachlabs.com/product/cockroachdb-core/"
+depends=('gcc-libs>=6.0')
+makedepends=('go' 'cmake' 'autoconf')
+source=("https://binaries.cockroachdb.com/cockroach-v$pkgver.src.tgz")
+md5sums=('a6a5507e1a441e2b7bc8060403a5b7d0')
+
+prepare() {
+	cp -ra "cockroach-v${pkgver}"{,-enterprise}
+}
+
+build() {
+	msg2 "Building Open Source version..."
+	(cd "cockroach-v${pkgver}"
+	  make buildoss
+	)
+
+	msg2 "Building Enterprise version..."
+	(cd "cockroach-v${pkgver}-enterprise"
+	  make build
+	)
+}
+
+package_cockroachdb-core() {
+	provides=("${pkgbase}")
+	conflicts=("${pkgbase}")
+	license=('Apache')
+
+	cd "cockroach-v${pkgver}"
+	install -Dm755 src/github.com/cockroachdb/cockroach/cockroach "$pkgdir"/usr/bin/cockroach
+	install -Dm644 src/github.com/cockroachdb/cockroach/licenses/APL.txt "$pkgdir"/usr/share/licenses/$pkgbase/LICENSE
+}
+
+package_cockroachdb-enterprise() {
+	provides=("${pkgbase}")
+	conflicts=("${pkgbase}")
+	license=('CCL')
+
+	cd "cockroach-v${pkgver}-enterprise"
+	install -Dm755 src/github.com/cockroachdb/cockroach/cockroach "$pkgdir"/usr/bin/cockroach
+	install -Dm644 src/github.com/cockroachdb/cockroach/LICENSE "$pkgdir"/usr/share/licenses/$pkgbase/LICENSE
+}
