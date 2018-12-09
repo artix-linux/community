@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesD/docutils.git
 	branch = master
-	commit = 332443cdcaf0a3160891f35639e852100afcfc6a
-	parent = b68f44293b9a9e616d67751d1b2f4c0e77fc6c62
+	commit = abcc2b145fbbade58107000be44f152784fdf2ca
+	parent = 353b9b1f25e6ab2caf9570a471b3e9681ffcba71
 	method = merge
 	update = auto
 	cmdver = 0.4.1
