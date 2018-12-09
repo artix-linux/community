@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-raven.git
 	branch = master
-	commit = dda8493dbbd8e1f521ee60c69913d1306ea998d9
-	parent = 464959c42768c9b6404e589eead5b636035c7e50
+	commit = 6b5e9212736b17d550c7b27ae9e20199d6e7ca17
+	parent = d01805dccea1828468d89fcf07ed1181a24109e8
 	method = merge
 	update = auto
 	cmdver = 0.4.1
