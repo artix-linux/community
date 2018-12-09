@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesS/sshguard-openrc.git
+	branch = master
+	commit = 8e48590c843b1e18f52bdc4e79267d8b720624b5
+	parent = fbfbd9c8334d9f4e5790c840424c77a84f649c5f
+	method = merge
+	update = auto
+	cmdver = 0.4.1
