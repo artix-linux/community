@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-termcolor.git
 	branch = master
-	commit = 6496e58e76442416951af4501342b6789bf7068f
-	parent = 620f0852c02c69ff1aaa15324007bdf4c350dd6e
+	commit = db8c79ead936c5c2ae9bd947132df93f7d5cfe04
+	parent = b506ccdea09e55de4fb33caf19a5c7a795a6e052
 	method = merge
 	update = auto
 	cmdver = 0.4.1
