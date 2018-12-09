@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesT/twolame.git
+	branch = master
+	commit = 10a0ec59b00ed2fe859b7723f10758044d435bdf
+	parent = 05d1259d1abfc0a78fbe8e4ec61febdc6bacb303
+	method = merge
+	update = auto
+	cmdver = 0.4.1
