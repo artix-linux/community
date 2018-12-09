@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-profilestats.git
 	branch = master
-	commit = ac7baa404bf2606e115f0f49e60a449d7b15c2a0
-	parent = 6c79c16badd022640a9d33e5628f2720d79f1f4e
+	commit = c0d11c8b18539c00be4dcb6e80a6fdc9c5722c91
+	parent = fcbf7493273c58a2f94fbb228948fdb2e88aa7d0
 	method = merge
 	update = auto
 	cmdver = 0.4.1
