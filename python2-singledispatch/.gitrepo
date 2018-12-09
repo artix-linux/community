@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python2-singledispatch.git
 	branch = master
-	commit = b7a363b0ec70e79b09e86d7bd330b62f87d10dff
-	parent = 68e81c9c265584c52ccab8d295f7e14d9c4bcf1b
+	commit = 39a070deec61a1247dd50fdb74df0f84fb0548af
+	parent = 26efd7a1687b316941789c51abd14701d2a4f51d
 	method = merge
 	update = auto
 	cmdver = 0.4.1
