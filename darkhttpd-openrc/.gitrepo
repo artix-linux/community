@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesD/darkhttpd-openrc.git
+	branch = master
+	commit = b49a77b93698c6e4252d7e72de6d01f113140f5d
+	parent = 4358b40eb42dc14873cd937f8448ed72eb6bf9a9
+	method = merge
+	update = auto
+	cmdver = 0.4.1
