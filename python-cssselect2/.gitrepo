@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-cssselect2.git
 	branch = master
-	commit = 74ac1affba6a0529708c12d5f6ae91e745d951b0
-	parent = 85b95368e3fd1dbb191c32a0136faaa053e60247
+	commit = 756d88b9f4e6d0d71cc2d704702d796d97662c3b
+	parent = d0340b169e6a5835f8e1781acc0cbf2ecc71248f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
