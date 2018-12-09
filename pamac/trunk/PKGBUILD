@@ -1,0 +1,47 @@
+# Maintainer: Chris Cromer <cromer@artixlinux.org>
+
+pkgname=pamac
+pkgver=7.3.1
+pkgrel=1
+pkgdesc="A Gtk3 frontend for libalpm"
+arch=('i686' 'x86_64')
+url="https://gitlab.manjaro.org/applications/pamac"
+license=('GPL3')
+depends=('glib2>=2.42' 'json-glib' 'libsoup' 'dbus-glib' 'polkit' 'vte3>=0.38' 'gtk3>=3.22'
+         'libnotify' 'desktop-file-utils' 'pacman>=5.1' 'pacman<5.2' 'gnutls>=3.4'
+         'appstream-glib' 'archlinux-appstream-data')
+makedepends=('gettext' 'itstool' 'vala>=0.36' 'meson' 'ninja' 'gobject-introspection')
+conflicts=('pamac-tray-appindicator')
+source=("pamac-$pkgver.tar.gz::$url/-/archive/v${pkgver}/${pkgname}-v${pkgver}.tar.gz")
+sha256sums=('39a166701a604e69a426640fe80329398179954bc85091d1b419b288368f2295')
+
+prepare() {
+  cd "$srcdir/pamac-v$pkgver"
+  # patches here
+
+  # adjust version string
+  sed -i -e "s|\"$pkgver\"|\"$pkgver-$pkgrel\"|g" src/manager_window.vala
+
+  [ -d build ] || mkdir build
+}
+
+build() {
+  cd "$srcdir/pamac-v${pkgver}/build"
+  meson --prefix=/usr --sysconfdir=/etc
+  ninja
+}
+
+package() {
+  optdepends=('polkit-gnome: needed for authentification in Cinnamon, Gnome'
+			  'mate-polkit: needed for authentification in Mate'
+              'lxsession: needed for authentification in Xfce, LXDE etc.'
+              'pamac-tray-appindicator: tray icon for KDE')
+  backup=('etc/pamac.conf')
+  replaces=('pamac-aur')
+  install=pamac.install
+  cd "$srcdir/pamac-v$pkgver/build"
+  DESTDIR="$pkgdir" ninja install
+  rm -rf "${pkgdir}/etc/systemd"
+  rm -rf "${pkgdir}/usr/lib/systemd"
+}
+# vim:set ts=2 sw=2 et:
