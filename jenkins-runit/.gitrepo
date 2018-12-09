@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesJ/jenkins-runit.git
+	branch = master
+	commit = b51fc5b10e1bc51a47e4997cd5aa906f309c75b4
+	parent = 43ed6b9b33a7be9d8d0affc632fcb31a707767c8
+	method = merge
+	update = auto
+	cmdver = 0.4.1
