@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesB/backlight-openrc.git
 	branch = master
-	commit = f6042c66402bf066396ad32ab16d2ef67db678dc
-	parent = 1ee2162e9bc89799c5570b69c8649e573b21ad23
+	commit = e79175bdae39e1309d7980438585cdcfbe0f0ac4
+	parent = 2350b4ee0aa3c93590831cc12cddc375697752cb
 	method = merge
 	update = auto
 	cmdver = 0.4.1
