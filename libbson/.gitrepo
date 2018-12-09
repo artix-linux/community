@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/libbson.git
 	branch = master
-	commit = 1bd74cb46fa3dd4b780abec167fcd75d1ce65f54
-	parent = b3de64dc41172179536dcc1db5a064f34b7d88a9
+	commit = 85994163bf9f014c509b8827b4216b3b4b6d9fd9
+	parent = 5115574fc45abc6d26b24a008b4a3c18a09b8a51
 	method = merge
 	update = auto
 	cmdver = 0.4.1
