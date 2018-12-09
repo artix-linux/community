@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesB/bumblebee.git
+	branch = master
+	commit = b191f072e20ec860f2d9a04e625ce2c48b24f721
+	parent = 13c87d7ccaa38d341a324a83e06b57858e7c5904
+	method = merge
+	update = auto
+	cmdver = 0.4.1
