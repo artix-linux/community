@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesD/docker-openrc.git
 	branch = master
-	commit = 2eb06a56c7e66dc93ac6e29aade5abeba3b69b2d
-	parent = 8a3874f59db8e2cb009184692bc1a208993bc78b
+	commit = 0c277c69d1ce053970e3bb105bc3e267127777c4
+	parent = b32291f4c3fc33143a625ee9d928211319fb2ddd
 	method = merge
 	update = auto
 	cmdver = 0.4.1
