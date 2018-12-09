@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesD/darkhttpd.git
 	branch = master
-	commit = 4e69d2a5308c61c881b4d31df42f20d70a36b7c8
-	parent = 25005d70f624ca83d1c0e1656483fe1567f8c9cf
+	commit = 69934c66fef10242a370c74f47b3eb3939d75ed4
+	parent = cdf4fca81abafdc8441483765d8387c176c77c99
 	method = merge
 	update = auto
 	cmdver = 0.4.1
