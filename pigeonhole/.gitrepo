@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesP/pigeonhole.git
+	branch = master
+	commit = 6be46d254617a60af7f96881edd6dc9b6f24ccf4
+	parent = c37d0cafd9c70bdffa3643f08a9f9f0a5ac54f2c
+	method = merge
+	update = auto
+	cmdver = 0.4.1
