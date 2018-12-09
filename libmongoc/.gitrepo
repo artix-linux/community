@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesL/libmongoc.git
+	branch = master
+	commit = c37d6a08e600dc51bf96753192fa374b45b37d59
+	parent = 93e5f3bc381e7305cadf44884459e32cd05b5e7c
+	method = merge
+	update = auto
+	cmdver = 0.4.1
