@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-requestsexceptions.git
 	branch = master
-	commit = 9c9d850d1b6cf9df945b150135dc1215217d1581
-	parent = b4523b016a81014bfbc624f99586e950307e5c5b
+	commit = 1a82180e1e946adcc2100d05fb43601821269483
+	parent = 0afa26fea9fbf7474d9ea9b2e787353da8efc8f7
 	method = merge
 	update = auto
 	cmdver = 0.4.1
