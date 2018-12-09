@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-flask-jwt.git
 	branch = master
-	commit = 747e1bc45d7ac151de561cbfdac90fe46002b95a
-	parent = 8f4e01fd8506422fb3cc1d52d9448b758a4fa10f
+	commit = 7368b18cbca538601925429be96ed6be3908406c
+	parent = 63905ebdae2f63bfa99d6e0aa7c47676a7e40637
 	method = merge
 	update = auto
 	cmdver = 0.4.1
