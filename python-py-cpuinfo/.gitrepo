@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-py-cpuinfo.git
+	branch = master
+	commit = b4150c710d147251180c506814c0731e234faf63
+	parent = fb4c0d3fd49b7e4fbb8909e51f433b70b127ebf9
+	method = merge
+	update = auto
+	cmdver = 0.4.1
