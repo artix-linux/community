@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-relaxed.git
 	branch = master
-	commit = 5f0232f32d455811530a87063c5443c7bf15ec6e
-	parent = 9b3c076cb1e4a80f6af0a8ef9f0c87b06b9d5caf
+	commit = 417f453ddaa11dd29c8dc43815b39350cf623453
+	parent = b896acac32ebb7658f8fdca420af642df9058690
 	method = merge
 	update = auto
 	cmdver = 0.4.1
