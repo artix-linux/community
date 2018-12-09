@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesF/fwknop-openrc.git
+	branch = master
+	commit = 35878835abffb452e1018dc2ff93602e0c14d402
+	parent = 4c1db408eb3929926a2c9311f5a715844d512445
+	method = merge
+	update = auto
+	cmdver = 0.4.1
