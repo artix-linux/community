@@ -1,0 +1,40 @@
+# Maintainer: Morten Linderud <foxboron@archlinux.org>
+# Contributor: Sébastien Luttringer
+# Contributor: xduugu
+# Contributor: Manolis Tzanidakis
+# Contributor: Jonathan Schmidt <j.schmidt@archlinux.us
+
+pkgname=acpid
+pkgver=2.0.31
+pkgrel=1
+pkgdesc='A daemon for delivering ACPI power management events with netlink support'
+arch=('x86_64')
+url='https://sourceforge.net/projects/acpid2/'
+license=('GPL')
+depends=('bash')
+optdepends=('perl: use perl based examples')
+replaces=('acpid2')
+backup=('etc/acpi/handler.sh' 'etc/acpi/events/anything')
+source=("https://downloads.sourceforge.net/sourceforge/acpid2/$pkgname-$pkgver.tar.xz"
+        'anything'
+        'handler.sh')
+sha256sums=('fc9dc669ed85d9a1739aa76915e0667c6697c5431160f8dfb253046c6a072cc3'
+            'eb5230affb9dba7653890655b94e83f377c689a39131b6b13c8202ba2382c275'
+            '1c1e39b7ecc57092ba9d747f452fb36d8ae0456e2e64849c9c4a2625d1d57413')
+
+build() {
+  cd $pkgname-$pkgver
+  ./configure --prefix=/usr --sbindir=/usr/bin
+  make
+}
+
+package() {
+  cd $pkgname-$pkgver
+  make DESTDIR="$pkgdir" install
+
+  # default config
+  install -Dm644 ../anything "$pkgdir/etc/acpi/events/anything"
+  install -Dm755 ../handler.sh "$pkgdir/etc/acpi/handler.sh"
+}
+
+# vim:set ts=2 sw=2 et:
