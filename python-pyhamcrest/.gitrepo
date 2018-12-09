@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-pyhamcrest.git
+	branch = master
+	commit = 8dc28052393ee189bbb5506b09e8bfdb18e2a79c
+	parent = 27101257bf6a4bbdd94f9cf022e16879fb3f2249
+	method = merge
+	update = auto
+	cmdver = 0.4.1
