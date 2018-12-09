@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-colorama.git
+	branch = master
+	commit = 69348dcf9b50cd887b6140ec84f3e7754a0b06f2
+	parent = c5b41ffcced8a14087b214480b3e06deb32d115d
+	method = merge
+	update = auto
+	cmdver = 0.4.1
