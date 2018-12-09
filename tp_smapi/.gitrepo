@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesT/tp_smapi.git
+	branch = master
+	commit = c68bb858cfe1f403d0a94e6972be2939552986be
+	parent = c0a27ca9623288754992c42372a1a5b5b6254fd1
+	method = merge
+	update = auto
+	cmdver = 0.4.1
