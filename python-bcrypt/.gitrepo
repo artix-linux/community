@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-bcrypt.git
+	branch = master
+	commit = 4f593f3571e1ac2030306d4c11834376f80de869
+	parent = 386091a0a1dcc208c36e7aa4d28dc117a442d8e9
+	method = merge
+	update = auto
+	cmdver = 0.4.1
