@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python2-pathlib2.git
+	branch = master
+	commit = 1db2f5a4179b35f087fc5afb854c91bd5b89f627
+	parent = 47659c51707a4bdb73f93bade6067542d6201f3a
+	method = merge
+	update = auto
+	cmdver = 0.4.1
