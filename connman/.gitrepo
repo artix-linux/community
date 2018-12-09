@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/connman.git
 	branch = master
-	commit = 8d7cf2d9d26483469110c09e43d179e2d02b4f5a
-	parent = 99b777d246bd9ff4d6792be748c099aabec27fbf
+	commit = dfff6a1d451d07354decec298dcc83aae8c4ad68
+	parent = bf81af12451252d16d2b7a61970cf67f22c6c196
 	method = merge
 	update = auto
 	cmdver = 0.4.1
