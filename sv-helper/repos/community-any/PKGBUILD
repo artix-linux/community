@@ -1,0 +1,33 @@
+# Maintainer: Muhammad Herdiansyah <koni@artixlinux.org>
+pkgname=sv-helper
+pkgver=2.0.2
+pkgrel=2
+pkgdesc="Utilities to help administer a runit-as-pid1-system"
+arch=('any')
+url="https://github.com/rubyists/sv-helper"
+license=('MIT')
+depends=('runit')
+source=("https://github.com/rubyists/sv-helper/archive/${pkgver}.tar.gz")
+sha256sums=('4914a0185502ec0079585533d09fe87938098728bed8b158d40484c58e44f9c7')
+
+package() {
+	cd "$pkgname-$pkgver"
+
+	# patch to use artix dirs
+	sed -e 's|/etc/sv|/etc/runit/sv|g' -i sv-helper.sh
+	sed -e 's|/var/service|/run/runit/service|g' -i sv-helper.sh
+
+	# bins
+	_cmd="sv-list svls sv-find sv-enable sv-disable sv-start sv-stop sv-restart"
+	install -Dm755 sv-helper.sh ${pkgdir}/usr/bin/sv-helper
+	install -Dm755 rsvlog.sh ${pkgdir}/usr/bin/rsvlog
+	for _cmds in $_cmd; do
+		ln -s sv-helper ${pkgdir}/usr/bin/$_cmds
+	done
+
+	# docs
+	install -Dm644 README.md ${pkgdir}/usr/share/doc/sv-helper/README.md
+
+	# license
+	install -Dm644 COPYING ${pkgdir}/usr/share/licenses/sv-helper/COPYING
+}
