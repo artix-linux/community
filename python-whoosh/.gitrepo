@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-whoosh.git
+	branch = master
+	commit = 9c4cd7e94be26de906d9dd5d93668db4ab560cb9
+	parent = e2ebbf43c4eb153310a7ecb3a169d9fb9419b022
+	method = merge
+	update = auto
+	cmdver = 0.4.1
