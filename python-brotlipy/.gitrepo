@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-brotlipy.git
 	branch = master
-	commit = 49ceede592ee4680ef270e621c8fd410e983e5eb
-	parent = 0126797b4cbab17bd46467caf25870b7ec61c982
+	commit = 48ef1e20a50ae3d91bfbf67f858364f2dae78fbb
+	parent = 56c6b70dc50f1a7e7f8d611eb1949dda9b56c7bf
 	method = merge
 	update = auto
 	cmdver = 0.4.1
