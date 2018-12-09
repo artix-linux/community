@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-sugar.git
 	branch = master
-	commit = 7c90d45fd3e2e8313f6cd63d1fc57c0616caa118
-	parent = d1e5baf978613e052f7437f5ccd261ff0a1e1ea4
+	commit = 2bceb0c484914429d3372594c0064d9f994f12cd
+	parent = 222cffd777f26cb3d8d1d1fd63aeedee217e0b7f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
