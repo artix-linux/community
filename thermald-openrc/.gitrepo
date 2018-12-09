@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesT/thermald-openrc.git
+	branch = master
+	commit = e194a86afd7ec2fc0ccf3ff15bca96856df68cf0
+	parent = 076a7179a0946826bbf164b84b55011b9fefc968
+	method = merge
+	update = auto
+	cmdver = 0.4.1
