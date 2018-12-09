@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-testscenarios.git
 	branch = master
-	commit = ad8fc6436a0a7c156fd74e3fb136548b886bbd02
-	parent = a933ef8d0fe52c887c74d1aca433e04171a82f6d
+	commit = 064b40e1a76c528936613d1a212e2073080ae5b1
+	parent = 47b2039a0164baaf12ce7e77bb13fbfb1fd781b4
 	method = merge
 	update = auto
 	cmdver = 0.4.1
