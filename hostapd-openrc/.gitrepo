@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesH/hostapd-openrc.git
+	branch = master
+	commit = a9ffa4ef815832b5f004c5a055ee3a77ec97bc67
+	parent = 73b50349c0a2107a7c977509e45bba7acda814df
+	method = merge
+	update = auto
+	cmdver = 0.4.1
