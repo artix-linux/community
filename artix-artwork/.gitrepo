@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesA/artix-artwork.git
 	branch = master
-	commit = 4643cfb1b3478bc1b6be03df5c0a2b332274ed93
-	parent = 57d7f628dc7da498b9d0a211a164e26f084614db
+	commit = f466d7f37341dfecad1223dad83535896510e9a3
+	parent = 21b5766ed063e7836967db200ca931fed40fa59d
 	method = merge
 	update = auto
 	cmdver = 0.4.1
