@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-pyftpdlib.git
+	branch = master
+	commit = 1b53a9fd4c931f5954dc4535d98d7fa34ac2fda4
+	parent = 610aebed8c2d3f60877f189ef262cfca48aeac65
+	method = merge
+	update = auto
+	cmdver = 0.4.1
