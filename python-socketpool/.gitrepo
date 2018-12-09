@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-socketpool.git
 	branch = master
-	commit = a312e38dcdd3ea631855ee3eced388615e07a3ac
-	parent = 49526ab3d6318b9651f7e74bad6adf2d19b575da
+	commit = c739f53a7872cd9d6e3ee3e9b5e1a7357e227668
+	parent = 70a2a0d89237d5c05340b5ef75cc8a16837acf4f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
