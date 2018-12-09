@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-itsdangerous.git
 	branch = master
-	commit = 18797b551ef49e95ec2537185a06481b0ed43901
-	parent = 488fe077c76a8a9ccc26b90ca0b6023d615ee2b6
+	commit = eb6c2b2c57b4057b339ea21f591420a0801cfb40
+	parent = bf3283abe88cae6c860fb948c5a8a4cd34a40ec2
 	method = merge
 	update = auto
 	cmdver = 0.4.1
