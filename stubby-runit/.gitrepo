@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesS/stubby-runit.git
 	branch = master
-	commit = 809a0a4c5afc73ff1fb33d2b17d09ced1f9fbba7
-	parent = bf7c4dd102e12e05a1f6f2cb9499838a6daca28b
+	commit = d792b397fb4bf3b776500ab457be86a08d6fc56f
+	parent = 6f71ddebe764dd1938e2c7b5fa459b0ec45c5ddf
 	method = merge
 	update = auto
 	cmdver = 0.4.1
