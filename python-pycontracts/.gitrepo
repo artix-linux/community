@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pycontracts.git
 	branch = master
-	commit = d2b6925fa147aa04e167271ed4e312ba73ddd1b3
-	parent = 7bbed817a87abcb7aba4f44033d73b6cbe0e368d
+	commit = ed4d281f0a47259f5d37db00ef06699724145a6f
+	parent = 753ed57528ab7fd11ccea400be6e2f530a981060
 	method = merge
 	update = auto
 	cmdver = 0.4.1
