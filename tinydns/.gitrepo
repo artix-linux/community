@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesT/tinydns.git
+	branch = master
+	commit = dc4e17d9d302b6b4449d856576959ff60341dba3
+	parent = 524c991ad554ed8ee12e767a6f8b3427bfa1868c
+	method = merge
+	update = auto
+	cmdver = 0.4.1
