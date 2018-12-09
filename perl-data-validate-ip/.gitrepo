@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPerl/perl-data-validate-ip.git
 	branch = master
-	commit = ee3f8164a4d100949eabf0290f0da236ba94fa88
-	parent = 5a4e36bbd67b369fbd3a0945295b7247d7167a39
+	commit = 922b14a2a354a51c84fe7c3d8efaad6eea2d8e8d
+	parent = 538ee70289be8b3b30e962801a700eb006a7a810
 	method = merge
 	update = auto
 	cmdver = 0.4.1
