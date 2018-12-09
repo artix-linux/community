@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-jeepney.git
 	branch = master
-	commit = 5dea2b7e2da9a497a6443e0d6d8e7e35de268975
-	parent = ab879a1d010e29095e3ae27ae722577a72f7974b
+	commit = f628967949a22dc04ac9de3db0ceaa0c44c63896
+	parent = b3d222af0147ab00a63df5763442345f174d52c3
 	method = merge
 	update = auto
 	cmdver = 0.4.1
