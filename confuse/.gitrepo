@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesC/confuse.git
+	branch = master
+	commit = aa9d5625fd883ab7dd37fb12e3f1bcc72cbc5f81
+	parent = 60335ba9f6bbac1702cdde6f6c7d5358d71b778e
+	method = merge
+	update = auto
+	cmdver = 0.4.1
