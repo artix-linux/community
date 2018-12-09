@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-jmespath.git
 	branch = master
-	commit = 4ad897600423b282f5bcd5c707416a42d5e35ef4
-	parent = 51724ac399548d60197c359015822513eaa359d5
+	commit = eb08a6324f8033e94a566898c3e3c005f779cb05
+	parent = 7b48c8b3b59c5a3658d4bedcc1f7fc4b5d36719f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
