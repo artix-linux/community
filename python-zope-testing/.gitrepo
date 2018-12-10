@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-zope-testing.git
+	branch = master
+	commit = c9d16fe470433016384df6ffeaac1b246b1bfd48
+	parent = e838b7e1183a4cb9affb2b1255c2a7486b57047e
+	method = merge
+	update = auto
+	cmdver = 0.4.1
