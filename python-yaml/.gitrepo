@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-yaml.git
+	branch = master
+	commit = 5f26e1c184029478f6500139d3465bb22740b73a
+	parent = aa90f76835e9c9d3347f919f80962c72ddb30f75
+	method = merge
+	update = auto
+	cmdver = 0.4.1
