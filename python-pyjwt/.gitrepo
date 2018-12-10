@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesPython/python-pyjwt.git
+	branch = master
+	commit = 2fbec25b65bd593ca6f1a1477a7ba2778f41301f
+	parent = 6939a843cfa16785166e1e4150e2bebc851d7803
+	method = merge
+	update = auto
+	cmdver = 0.4.1
