@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pyjwt.git
 	branch = master
-	commit = d462781c8c18a53b6bdc180214b70fbfce8aa100
-	parent = e3cb97ee2c068867a0617a5d50a4d5b886ca6a37
+	commit = d4a6ebcaf3a2c78846037f7a7c091ec5e68bf590
+	parent = 68c7395df2f2f7931f50b21d101833ce037bf805
 	method = merge
 	update = auto
 	cmdver = 0.4.1
