@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesA/acpi_call.git
 	branch = master
-	commit = 040c5af59d325e071c1b412c5ecdfd203526b123
-	parent = 489d00c9f25b187eb8243d6e0c01822ca7e5bace
+	commit = d31e88b67708de05b55a17cda5902625b6ab14ef
+	parent = 6a81f1d093fc4adfba7adbaedb2a9bcd5de64b0f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
