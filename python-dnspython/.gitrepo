@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-dnspython.git
 	branch = master
-	commit = 8743366c00c14f4d2101b796e3b869a9cdbca602
-	parent = a66f8880352a1a2629480f8db0bc32a64d7d44d8
+	commit = 83c7c51c76a1f498cc41428c9e2d8c2a749b357d
+	parent = f02e2a39d0b8e60e4c2f54fdc8ca7581a0aa3263
 	method = merge
 	update = auto
 	cmdver = 0.4.1
