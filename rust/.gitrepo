@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesR/rust.git
+	branch = master
+	commit = 839e1e0090495ea57b0b66804fc3e6bd75865b32
+	parent = c8fc61c3b572b31ff1b9e4e325b1539f0107b595
+	method = merge
+	update = auto
+	cmdver = 0.4.1
