@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-zconfig.git
 	branch = master
-	commit = a94dab03fd5f8cbd9a9f332a6873b3a348cf8394
-	parent = eadef1fc28ddf3828fb769fccd7d083126a431ff
+	commit = 3ea0573ae8b254a8f125481a0312bdd85336c5db
+	parent = ab0adebbbc9c3eefce3c68f04b2e09b485c0af0a
 	method = merge
 	update = auto
 	cmdver = 0.4.1
