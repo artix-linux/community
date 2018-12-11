@@ -8,7 +8,7 @@ pkgdesc="A caching front-end based on the Dogpile lock"
 arch=('any')
 url="http://pypi.python.org/pypi/dogpile.cache"
 license=('BSD')
-makedepends=('python-setuptools' 'python2-setuptools')
+makedepends=('python-setuptools' 'python2-setuptools' 'python-decorator' 'python2-decorator')
 checkdepends=('memcached' 'redis' 'python-mako' 'python2-mako' 'python-redis' 'python2-redis'
               'python2-memcached' 'python-pytest-runner' 'python2-pytest-runner' 'python-mock'
               'python2-mock' 'python-pytest-cov' 'python2-pytest-cov' 'python-pylibmc'
